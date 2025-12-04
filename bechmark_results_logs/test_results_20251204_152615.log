@@ -1,0 +1,21 @@
+Test Results - 20251204_152615
+Timeout: 60s
+Instances tested: 10
+
+RL Wins: 5/10
+Baseline Wins: 4/10
+
+Winner: RL
+
+Detailed Results:
+----------------------------------------------------------------------
+medium1.cnf          | RL: SAT      (  0.01s) | BL: TIMEOUT  ( 60.00s)
+medium2.cnf          | RL: SAT      (  1.55s) | BL: SAT      (  0.00s)
+medium3.cnf          | RL: SAT      (  0.01s) | BL: TIMEOUT  ( 60.00s)
+medium4.cnf          | RL: SAT      (  0.30s) | BL: SAT      (  0.00s)
+medium5.cnf          | RL: SAT      (  0.01s) | BL: SAT      (  0.00s)
+medium6.cnf          | RL: SAT      (  0.02s) | BL: TIMEOUT  ( 60.00s)
+medium7.cnf          | RL: SAT      (  0.02s) | BL: TIMEOUT  ( 60.00s)
+simple1.cnf          | RL: SAT      (  0.00s) | BL: SAT      (  0.00s)
+tiny_sat.cnf         | RL: SAT      (  0.00s) | BL: TIMEOUT  ( 60.00s)
+unsat1.cnf           | RL: ERROR    (  0.00s) | BL: TIMEOUT  ( 60.00s)
