@@ -1,2 +1,0 @@
-epoch,heuristic,reward,d_conflicts,d_decisions,d_propagations,avg_lbd,conflicts,decisions,propagations,restarts,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10
-0,vsids,,0,3,0,0.0,0,3,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.06666666666666667,0.0,0.0,1.0

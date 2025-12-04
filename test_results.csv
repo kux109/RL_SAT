@@ -1,7 +1,0 @@
-instance,mode,heuristic,status,time,conflicts,decisions,propagations,restarts
-medium1.cnf,rl,vsids,SAT,0.004707813262939453,200,411,0,1
-medium1.cnf,baseline,vsids,TIMEOUT,10,0,0,0,0
-simple1.cnf,rl,vsids,SAT,0.00021791458129882812,0,5,0,0
-simple1.cnf,baseline,vsids,SAT,2.288818359375e-05,0,5,0,0
-unsat1.cnf,rl,vsids,TIMEOUT,10,0,0,0,0
-unsat1.cnf,baseline,vsids,TIMEOUT,10,0,0,0,0

@@ -1,6 +1,18 @@
 import argparse
 import time
+import sys
 from typing import Tuple
+from pathlib import Path
+
+# Add project directories to path for imports
+project_root = Path(__file__).parent
+sys.path.insert(0, str(project_root))
+sys.path.insert(0, str(project_root / 'rl-cdcl'))
+sys.path.insert(0, str(project_root / 'baseline-cdcl'))
+sys.path.insert(0, str(project_root / 'core_files'))
+sys.path.insert(0, str(project_root / 'heuristics'))
+sys.path.insert(0, str(project_root / 'bandit'))
+sys.path.insert(0, str(project_root / 'utils'))
 
 from cdcl_rl import CDCLSolverRL
 from cdcl_baseline import CDCLSolverBaseline
