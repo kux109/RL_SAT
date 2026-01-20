@@ -1,0 +1,185 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf",
+        "date": "2026-01-20",
+        "time": "20-01-2026-13-25"
+    },
+    "summary": {
+        "total": 10,
+        "baseline_wins": 5,
+        "rl_wins": 5,
+        "ties": 0
+    },
+    "results": [
+        {
+            "instance": "rnd_75_0.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_0.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001265,
+                "conflicts": 13,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001221,
+                "conflicts": 13,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_75_1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00141,
+                "conflicts": 94,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001346,
+                "conflicts": 94,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_75_2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_2.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001625,
+                "conflicts": 154,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001564,
+                "conflicts": 154,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_75_3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001446,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001504,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_75_4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_4.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001521,
+                "conflicts": 154,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001549,
+                "conflicts": 154,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_75_5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001455,
+                "conflicts": 142,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001584,
+                "conflicts": 142,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_75_6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001684,
+                "conflicts": 176,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001681,
+                "conflicts": 176,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_75_7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001149,
+                "conflicts": 30,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001324,
+                "conflicts": 30,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_75_8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_8.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001284,
+                "conflicts": 27,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001176,
+                "conflicts": 27,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_75_9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/custom_cnf/medium_cnfs/rnd_75_9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001452,
+                "conflicts": 116,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001506,
+                "conflicts": 116,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        }
+    ]
+}

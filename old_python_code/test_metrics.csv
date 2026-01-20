@@ -1,0 +1,2 @@
+epoch,heuristic,reward,d_conflicts,d_decisions,d_propagations,avg_lbd,conflicts,decisions,propagations,restarts,feat_avg_lbd,feat_var_lbd,feat_glue_ratio,feat_conf_rate,feat_act_mean,feat_act_std,feat_learned_ratio,feat_cv_ratio,feat_rest_rate,feat_prop_rate,feat_sat_ratio
+0,vsids,,5,12,5,2.4,5,12,5,0,0.12,0.0024,0.6,0.0,0.39727916416808895,0.288434170413668,0.25,0.2,0.0,0.004166666666666667,1.0

@@ -1,0 +1,322 @@
+[RL-Debug] Initializing RL Agent: Alpha=0.5, Arms=2
+c [RL] LinUCB Agent Activated (Step=100)
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           250                                         |
+|  Number of clauses:            1065                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+[RL-Debug] Step: 100 Reward: 224.98 Arm: 0 -> 0
+|       100 |     250     1065     3195 |      390      100     16 |  0.002 % |
+[RL-Debug] Step: 200 Reward: 382.02 Arm: 0 -> 0
+|       250 |     250     1065     3195 |      429      250     15 |  0.002 % |
+[RL-Debug] Step: 300 Reward: 182.78 Arm: 0 -> 0
+[RL-Debug] Step: 400 Reward: 133.12 Arm: 0 -> 0
+|       475 |     250     1065     3195 |      472      252     12 |  0.002 % |
+[RL-Debug] Step: 500 Reward: 79.30 Arm: 0 -> 0
+[RL-Debug] Step: 600 Reward: 130.00 Arm: 0 -> 0
+[RL-Debug] Step: 700 Reward: 132.10 Arm: 0 -> 0
+[RL-Debug] Step: 800 Reward: 233.76 Arm: 0 -> 0
+|       812 |     250     1065     3195 |      519      343     12 |  0.002 % |
+[RL-Debug] Step: 900 Reward: 281.88 Arm: 0 -> 0
+[RL-Debug] Step: 1000 Reward: 182.50 Arm: 0 -> 0
+[RL-Debug] Step: 1100 Reward: 183.36 Arm: 0 -> 0
+[RL-Debug] Step: 1200 Reward: 282.56 Arm: 0 -> 0
+[RL-Debug] Step: 1300 Reward: 31.10 Arm: 0 -> 0
+|      1318 |     250     1065     3195 |      571      310     10 |  0.002 % |
+[RL-Debug] Step: 1400 Reward: 181.84 Arm: 0 -> 0
+[RL-Debug] Step: 1500 Reward: 282.60 Arm: 0 -> 0
+[RL-Debug] Step: 1600 Reward: 83.80 Arm: 0 -> 0
+[RL-Debug] Step: 1700 Reward: 24.74 Arm: 0 -> 0
+[RL-Debug] Step: 1800 Reward: 79.28 Arm: 0 -> 0
+[RL-Debug] Step: 1900 Reward: 82.38 Arm: 0 -> 0
+[RL-Debug] Step: 2000 Reward: 32.80 Arm: 0 -> 0
+|      2077 |     250     1065     3195 |      628      474     11 |  0.002 % |
+[RL-Debug] Step: 2100 Reward: -19.06 Arm: 0 -> 0
+[RL-Debug] Step: 2200 Reward: 33.40 Arm: 0 -> 0
+[RL-Debug] Step: 2300 Reward: 132.42 Arm: 0 -> 0
+[RL-Debug] Step: 2400 Reward: 82.04 Arm: 0 -> 0
+[RL-Debug] Step: 2500 Reward: -22.40 Arm: 0 -> 0
+[RL-Debug] Step: 2600 Reward: 131.14 Arm: 0 -> 0
+[RL-Debug] Step: 2700 Reward: 82.42 Arm: 0 -> 0
+[RL-Debug] Step: 2800 Reward: 133.20 Arm: 0 -> 0
+[RL-Debug] Step: 2900 Reward: 34.78 Arm: 0 -> 0
+[RL-Debug] Step: 3000 Reward: 234.00 Arm: 0 -> 0
+[RL-Debug] Step: 3100 Reward: 181.18 Arm: 0 -> 0
+[RL-Debug] Step: 3200 Reward: -18.32 Arm: 0 -> 0
+|      3216 |     250     1065     3195 |      691      633     11 |  0.002 % |
+[RL-Debug] Step: 3300 Reward: 79.34 Arm: 0 -> 0
+[RL-Debug] Step: 3400 Reward: 127.00 Arm: 0 -> 0
+[RL-Debug] Step: 3500 Reward: -23.42 Arm: 0 -> 0
+[RL-Debug] Step: 3600 Reward: 27.60 Arm: 0 -> 0
+[RL-Debug] Step: 3700 Reward: 127.72 Arm: 0 -> 0
+[RL-Debug] Step: 3800 Reward: 31.10 Arm: 0 -> 0
+[RL-Debug] Step: 3900 Reward: 78.86 Arm: 0 -> 0
+[RL-Debug] Step: 4000 Reward: 132.72 Arm: 0 -> 0
+[RL-Debug] Step: 4100 Reward: 128.26 Arm: 0 -> 0
+[RL-Debug] Step: 4200 Reward: 129.80 Arm: 0 -> 0
+[RL-Debug] Step: 4300 Reward: 130.90 Arm: 0 -> 0
+[RL-Debug] Step: 4400 Reward: 179.52 Arm: 0 -> 0
+[RL-Debug] Step: 4500 Reward: 77.12 Arm: 0 -> 0
+[RL-Debug] Step: 4600 Reward: 78.60 Arm: 0 -> 0
+[RL-Debug] Step: 4700 Reward: 30.20 Arm: 0 -> 0
+[RL-Debug] Step: 4800 Reward: -18.16 Arm: 0 -> 0
+[RL-Debug] Step: 4900 Reward: 129.34 Arm: 0 -> 0
+|      4924 |     250     1065     3195 |      760      549     11 |  0.002 % |
+[RL-Debug] Step: 5000 Reward: 76.82 Arm: 0 -> 0
+[RL-Debug] Step: 5100 Reward: 28.66 Arm: 0 -> 0
+[RL-Debug] Step: 5200 Reward: 129.86 Arm: 0 -> 0
+[RL-Debug] Step: 5300 Reward: -20.72 Arm: 0 -> 0
+[RL-Debug] Step: 5400 Reward: -21.68 Arm: 0 -> 0
+[RL-Debug] Step: 5500 Reward: 78.46 Arm: 0 -> 0
+[RL-Debug] Step: 5600 Reward: 79.78 Arm: 0 -> 0
+[RL-Debug] Step: 5700 Reward: 29.14 Arm: 0 -> 0
+[RL-Debug] Step: 5800 Reward: 230.28 Arm: 0 -> 0
+[RL-Debug] Step: 5900 Reward: 231.46 Arm: 0 -> 0
+[RL-Debug] Step: 6000 Reward: 279.92 Arm: 0 -> 0
+[RL-Debug] Step: 6100 Reward: 81.42 Arm: 0 -> 0
+[RL-Debug] Step: 6200 Reward: -17.96 Arm: 0 -> 0
+[RL-Debug] Step: 6300 Reward: 79.44 Arm: 0 -> 0
+[RL-Debug] Step: 6400 Reward: 28.40 Arm: 0 -> 0
+[RL-Debug] Step: 6500 Reward: 277.56 Arm: 0 -> 0
+[RL-Debug] Step: 6600 Reward: 81.60 Arm: 0 -> 0
+[RL-Debug] Step: 6700 Reward: 183.10 Arm: 0 -> 0
+[RL-Debug] Step: 6800 Reward: 132.30 Arm: 0 -> 0
+[RL-Debug] Step: 6900 Reward: 133.24 Arm: 0 -> 0
+[RL-Debug] Step: 7000 Reward: 131.84 Arm: 0 -> 0
+[RL-Debug] Step: 7100 Reward: 31.40 Arm: 0 -> 0
+[RL-Debug] Step: 7200 Reward: 132.50 Arm: 0 -> 0
+[RL-Debug] Step: 7300 Reward: 233.90 Arm: 0 -> 0
+[RL-Debug] Step: 7400 Reward: 133.52 Arm: 0 -> 0
+|      7486 |     250     1065     3195 |      837      776     11 |  0.002 % |
+[RL-Debug] Step: 7500 Reward: 133.26 Arm: 0 -> 0
+[RL-Debug] Step: 7600 Reward: 132.54 Arm: 0 -> 0
+[RL-Debug] Step: 7700 Reward: 33.06 Arm: 0 -> 0
+[RL-Debug] Step: 7800 Reward: 31.76 Arm: 0 -> 0
+[RL-Debug] Step: 7900 Reward: 82.86 Arm: 0 -> 0
+[RL-Debug] Step: 8000 Reward: 33.98 Arm: 0 -> 0
+[RL-Debug] Step: 8100 Reward: 31.06 Arm: 0 -> 0
+[RL-Debug] Step: 8200 Reward: 282.22 Arm: 0 -> 0
+[RL-Debug] Step: 8300 Reward: 232.24 Arm: 0 -> 0
+[RL-Debug] Step: 8400 Reward: -16.70 Arm: 0 -> 0
+[RL-Debug] Step: 8500 Reward: 81.84 Arm: 0 -> 0
+[RL-Debug] Step: 8600 Reward: 29.96 Arm: 0 -> 0
+[RL-Debug] Step: 8700 Reward: -21.00 Arm: 0 -> 0
+[RL-Debug] Step: 8800 Reward: -23.36 Arm: 0 -> 0
+[RL-Debug] Step: 8900 Reward: 175.94 Arm: 0 -> 0
+[RL-Debug] Step: 9000 Reward: 27.22 Arm: 0 -> 0
+[RL-Debug] Step: 9100 Reward: 77.74 Arm: 0 -> 0
+[RL-Debug] Step: 9200 Reward: 177.70 Arm: 0 -> 0
+[RL-Debug] Step: 9300 Reward: 22.82 Arm: 0 -> 0
+[RL-Debug] Step: 9400 Reward: 75.88 Arm: 0 -> 0
+[RL-Debug] Step: 9500 Reward: 30.90 Arm: 0 -> 0
+[RL-Debug] Step: 9600 Reward: 80.78 Arm: 0 -> 0
+[RL-Debug] Step: 9700 Reward: 79.78 Arm: 0 -> 0
+[RL-Debug] Step: 9800 Reward: 330.88 Arm: 0 -> 0
+[RL-Debug] Step: 9900 Reward: 27.48 Arm: 0 -> 0
+[RL-Debug] Step: 10000 Reward: 180.10 Arm: 0 -> 0
+[RL-Debug] Step: 10100 Reward: 179.26 Arm: 0 -> 0
+[RL-Debug] Step: 10200 Reward: -20.70 Arm: 0 -> 0
+[RL-Debug] Step: 10300 Reward: 80.30 Arm: 0 -> 0
+[RL-Debug] Step: 10400 Reward: 81.38 Arm: 0 -> 0
+[RL-Debug] Step: 10500 Reward: 79.48 Arm: 0 -> 0
+[RL-Debug] Step: 10600 Reward: 181.60 Arm: 0 -> 0
+[RL-Debug] Step: 10700 Reward: 181.82 Arm: 0 -> 0
+[RL-Debug] Step: 10800 Reward: 134.04 Arm: 0 -> 0
+[RL-Debug] Step: 10900 Reward: 80.90 Arm: 0 -> 0
+[RL-Debug] Step: 11000 Reward: 30.34 Arm: 0 -> 0
+[RL-Debug] Step: 11100 Reward: 31.04 Arm: 0 -> 0
+[RL-Debug] Step: 11200 Reward: 79.24 Arm: 0 -> 0
+[RL-Debug] Step: 11300 Reward: 29.94 Arm: 0 -> 0
+|     11330 |     250     1065     3195 |      920      738     11 |  0.002 % |
+[RL-Debug] Step: 11400 Reward: 33.76 Arm: 0 -> 0
+[RL-Debug] Step: 11500 Reward: 180.62 Arm: 0 -> 0
+[RL-Debug] Step: 11600 Reward: 183.76 Arm: 0 -> 0
+[RL-Debug] Step: 11700 Reward: 132.72 Arm: 0 -> 0
+[RL-Debug] Step: 11800 Reward: 31.16 Arm: 0 -> 0
+[RL-Debug] Step: 11900 Reward: 180.64 Arm: 0 -> 0
+[RL-Debug] Step: 12000 Reward: 32.00 Arm: 0 -> 0
+[RL-Debug] Step: 12100 Reward: 83.16 Arm: 0 -> 0
+[RL-Debug] Step: 12200 Reward: 132.18 Arm: 0 -> 0
+[RL-Debug] Step: 12300 Reward: 29.94 Arm: 0 -> 0
+[RL-Debug] Step: 12400 Reward: 30.68 Arm: 0 -> 0
+[RL-Debug] Step: 12500 Reward: 79.86 Arm: 0 -> 0
+[RL-Debug] Step: 12600 Reward: 82.48 Arm: 0 -> 0
+[RL-Debug] Step: 12700 Reward: 84.48 Arm: 0 -> 0
+[RL-Debug] Step: 12800 Reward: -15.22 Arm: 0 -> 0
+[RL-Debug] Step: 12900 Reward: 31.34 Arm: 0 -> 0
+[RL-Debug] Step: 13000 Reward: 30.80 Arm: 0 -> 0
+[RL-Debug] Step: 13100 Reward: 181.40 Arm: 0 -> 0
+[RL-Debug] Step: 13200 Reward: 133.94 Arm: 0 -> 0
+[RL-Debug] Step: 13300 Reward: 83.28 Arm: 0 -> 0
+[RL-Debug] Step: 13400 Reward: -18.68 Arm: 0 -> 0
+[RL-Debug] Step: 13500 Reward: 32.68 Arm: 0 -> 0
+[RL-Debug] Step: 13600 Reward: 81.88 Arm: 0 -> 0
+[RL-Debug] Step: 13700 Reward: -19.48 Arm: 0 -> 0
+[RL-Debug] Step: 13800 Reward: 128.10 Arm: 0 -> 0
+[RL-Debug] Step: 13900 Reward: 29.30 Arm: 0 -> 0
+[RL-Debug] Step: 14000 Reward: 31.48 Arm: 0 -> 0
+[RL-Debug] Step: 14100 Reward: 29.80 Arm: 0 -> 0
+[RL-Debug] Step: 14200 Reward: 32.02 Arm: 0 -> 0
+[RL-Debug] Step: 14300 Reward: 29.52 Arm: 0 -> 0
+[RL-Debug] Step: 14400 Reward: 134.46 Arm: 0 -> 0
+[RL-Debug] Step: 14500 Reward: 229.44 Arm: 0 -> 0
+[RL-Debug] Step: 14600 Reward: 183.36 Arm: 0 -> 0
+[RL-Debug] Step: 14700 Reward: 32.08 Arm: 0 -> 0
+[RL-Debug] Step: 14800 Reward: 84.20 Arm: 0 -> 0
+[RL-Debug] Step: 14900 Reward: 84.42 Arm: 0 -> 0
+[RL-Debug] Step: 15000 Reward: 85.14 Arm: 0 -> 0
+[RL-Debug] Step: 15100 Reward: 132.78 Arm: 0 -> 0
+[RL-Debug] Step: 15200 Reward: 133.02 Arm: 0 -> 0
+[RL-Debug] Step: 15300 Reward: -18.68 Arm: 0 -> 0
+[RL-Debug] Step: 15400 Reward: 33.80 Arm: 0 -> 0
+[RL-Debug] Step: 15500 Reward: 84.32 Arm: 0 -> 0
+[RL-Debug] Step: 15600 Reward: -16.66 Arm: 0 -> 0
+[RL-Debug] Step: 15700 Reward: 33.44 Arm: 0 -> 0
+[RL-Debug] Step: 15800 Reward: -17.04 Arm: 0 -> 0
+[RL-Debug] Step: 15900 Reward: 34.94 Arm: 0 -> 0
+[RL-Debug] Step: 16000 Reward: 83.86 Arm: 0 -> 0
+[RL-Debug] Step: 16100 Reward: 29.18 Arm: 0 -> 0
+[RL-Debug] Step: 16200 Reward: 28.48 Arm: 0 -> 0
+[RL-Debug] Step: 16300 Reward: 29.56 Arm: 0 -> 0
+[RL-Debug] Step: 16400 Reward: 79.78 Arm: 0 -> 0
+[RL-Debug] Step: 16500 Reward: 31.66 Arm: 0 -> 0
+[RL-Debug] Step: 16600 Reward: 81.46 Arm: 0 -> 0
+[RL-Debug] Step: 16700 Reward: -18.56 Arm: 0 -> 0
+[RL-Debug] Step: 16800 Reward: 182.22 Arm: 0 -> 0
+[RL-Debug] Step: 16900 Reward: 32.04 Arm: 0 -> 0
+[RL-Debug] Step: 17000 Reward: 30.80 Arm: 0 -> 0
+|     17096 |     250     1065     3195 |     1012      846     11 |  0.002 % |
+[RL-Debug] Step: 17100 Reward: 132.96 Arm: 0 -> 0
+[RL-Debug] Step: 17200 Reward: 82.12 Arm: 0 -> 0
+[RL-Debug] Step: 17300 Reward: 133.86 Arm: 0 -> 0
+[RL-Debug] Step: 17400 Reward: 29.94 Arm: 0 -> 0
+[RL-Debug] Step: 17500 Reward: -17.84 Arm: 0 -> 0
+[RL-Debug] Step: 17600 Reward: 83.04 Arm: 0 -> 0
+[RL-Debug] Step: 17700 Reward: 84.68 Arm: 0 -> 0
+[RL-Debug] Step: 17800 Reward: 81.78 Arm: 0 -> 0
+[RL-Debug] Step: 17900 Reward: 132.34 Arm: 0 -> 0
+[RL-Debug] Step: 18000 Reward: 132.20 Arm: 0 -> 0
+[RL-Debug] Step: 18100 Reward: 83.20 Arm: 0 -> 0
+[RL-Debug] Step: 18200 Reward: 33.92 Arm: 0 -> 0
+[RL-Debug] Step: 18300 Reward: 33.06 Arm: 0 -> 0
+[RL-Debug] Step: 18400 Reward: 33.02 Arm: 0 -> 0
+[RL-Debug] Step: 18500 Reward: 32.62 Arm: 0 -> 0
+[RL-Debug] Step: 18600 Reward: 81.40 Arm: 0 -> 0
+[RL-Debug] Step: 18700 Reward: 32.70 Arm: 0 -> 0
+[RL-Debug] Step: 18800 Reward: 83.16 Arm: 0 -> 0
+[RL-Debug] Step: 18900 Reward: -16.70 Arm: 0 -> 0
+[RL-Debug] Step: 19000 Reward: 33.56 Arm: 0 -> 0
+[RL-Debug] Step: 19100 Reward: 35.92 Arm: 0 -> 0
+[RL-Debug] Step: 19200 Reward: 185.72 Arm: 0 -> 0
+[RL-Debug] Step: 19300 Reward: 84.14 Arm: 0 -> 0
+[RL-Debug] Step: 19400 Reward: 30.06 Arm: 0 -> 0
+[RL-Debug] Step: 19500 Reward: 32.12 Arm: 0 -> 0
+[RL-Debug] Step: 19600 Reward: 181.84 Arm: 0 -> 0
+[RL-Debug] Step: 19700 Reward: 81.86 Arm: 0 -> 0
+[RL-Debug] Step: 19800 Reward: 81.60 Arm: 0 -> 0
+[RL-Debug] Step: 19900 Reward: 76.52 Arm: 0 -> 0
+[RL-Debug] Step: 20000 Reward: 77.72 Arm: 0 -> 0
+[RL-Debug] Step: 20100 Reward: 80.12 Arm: 0 -> 0
+[RL-Debug] Step: 20200 Reward: 33.24 Arm: 0 -> 0
+[RL-Debug] Step: 20300 Reward: -18.00 Arm: 0 -> 0
+[RL-Debug] Step: 20400 Reward: 83.94 Arm: 0 -> 0
+[RL-Debug] Step: 20500 Reward: 132.24 Arm: 0 -> 0
+[RL-Debug] Step: 20600 Reward: 132.04 Arm: 0 -> 0
+[RL-Debug] Step: 20700 Reward: 331.22 Arm: 0 -> 0
+[RL-Debug] Step: 20800 Reward: 130.92 Arm: 0 -> 0
+[RL-Debug] Step: 20900 Reward: 178.24 Arm: 0 -> 0
+[RL-Debug] Step: 21000 Reward: 226.84 Arm: 0 -> 0
+[RL-Debug] Step: 21100 Reward: 128.08 Arm: 0 -> 0
+[RL-Debug] Step: 21200 Reward: 32.44 Arm: 0 -> 0
+[RL-Debug] Step: 21300 Reward: 133.50 Arm: 0 -> 0
+[RL-Debug] Step: 21400 Reward: 134.30 Arm: 0 -> 0
+[RL-Debug] Step: 21500 Reward: 135.80 Arm: 0 -> 0
+[RL-Debug] Step: 21600 Reward: -16.56 Arm: 0 -> 0
+[RL-Debug] Step: 21700 Reward: 29.12 Arm: 0 -> 0
+[RL-Debug] Step: 21800 Reward: 31.94 Arm: 0 -> 0
+[RL-Debug] Step: 21900 Reward: 30.30 Arm: 0 -> 0
+[RL-Debug] Step: 22000 Reward: 328.78 Arm: 0 -> 0
+[RL-Debug] Step: 22100 Reward: 81.50 Arm: 0 -> 0
+[RL-Debug] Step: 22200 Reward: 32.40 Arm: 0 -> 0
+[RL-Debug] Step: 22300 Reward: -19.68 Arm: 0 -> 0
+[RL-Debug] Step: 22400 Reward: -17.80 Arm: 0 -> 0
+[RL-Debug] Step: 22500 Reward: 180.56 Arm: 0 -> 0
+[RL-Debug] Step: 22600 Reward: 29.76 Arm: 0 -> 0
+[RL-Debug] Step: 22700 Reward: 30.60 Arm: 0 -> 0
+[RL-Debug] Step: 22800 Reward: 131.58 Arm: 0 -> 0
+[RL-Debug] Step: 22900 Reward: 78.62 Arm: 0 -> 0
+[RL-Debug] Step: 23000 Reward: -22.18 Arm: 0 -> 0
+[RL-Debug] Step: 23100 Reward: 79.60 Arm: 0 -> 0
+[RL-Debug] Step: 23200 Reward: 130.60 Arm: 0 -> 0
+[RL-Debug] Step: 23300 Reward: 131.66 Arm: 0 -> 0
+[RL-Debug] Step: 23400 Reward: 32.12 Arm: 0 -> 0
+[RL-Debug] Step: 23500 Reward: 83.36 Arm: 0 -> 0
+[RL-Debug] Step: 23600 Reward: 82.06 Arm: 0 -> 0
+[RL-Debug] Step: 23700 Reward: 181.64 Arm: 0 -> 0
+[RL-Debug] Step: 23800 Reward: 81.72 Arm: 0 -> 0
+[RL-Debug] Step: 23900 Reward: 81.42 Arm: 0 -> 0
+[RL-Debug] Step: 24000 Reward: 32.84 Arm: 0 -> 0
+[RL-Debug] Step: 24100 Reward: 31.88 Arm: 0 -> 0
+[RL-Debug] Step: 24200 Reward: 129.72 Arm: 0 -> 0
+[RL-Debug] Step: 24300 Reward: -22.72 Arm: 0 -> 0
+[RL-Debug] Step: 24400 Reward: 79.52 Arm: 0 -> 0
+[RL-Debug] Step: 24500 Reward: -22.28 Arm: 0 -> 0
+[RL-Debug] Step: 24600 Reward: -23.64 Arm: 0 -> 0
+[RL-Debug] Step: 24700 Reward: 30.94 Arm: 0 -> 0
+[RL-Debug] Step: 24800 Reward: 80.60 Arm: 0 -> 0
+[RL-Debug] Step: 24900 Reward: 181.16 Arm: 0 -> 0
+[RL-Debug] Step: 25000 Reward: 131.94 Arm: 0 -> 0
+[RL-Debug] Step: 25100 Reward: -18.64 Arm: 0 -> 0
+[RL-Debug] Step: 25200 Reward: 30.14 Arm: 0 -> 0
+[RL-Debug] Step: 25300 Reward: 81.42 Arm: 0 -> 0
+[RL-Debug] Step: 25400 Reward: 82.28 Arm: 0 -> 0
+[RL-Debug] Step: 25500 Reward: -18.60 Arm: 0 -> 0
+[RL-Debug] Step: 25600 Reward: -19.64 Arm: 0 -> 0
+[RL-Debug] Step: 25700 Reward: 31.14 Arm: 0 -> 0
+|     25745 |     250     1065     3195 |     1114      691     11 |  0.002 % |
+[RL-Debug] Step: 25800 Reward: 28.06 Arm: 0 -> 0
+[RL-Debug] Step: 25900 Reward: -21.50 Arm: 0 -> 0
+[RL-Debug] Step: 26000 Reward: 129.52 Arm: 0 -> 0
+[RL-Debug] Step: 26100 Reward: -23.32 Arm: 0 -> 0
+[RL-Debug] Step: 26200 Reward: 27.34 Arm: 0 -> 0
+[RL-Debug] Step: 26300 Reward: 77.20 Arm: 0 -> 0
+[RL-Debug] Step: 26400 Reward: 28.28 Arm: 0 -> 0
+[RL-Debug] Step: 26500 Reward: -21.60 Arm: 0 -> 0
+[RL-Debug] Step: 26600 Reward: 180.50 Arm: 0 -> 0
+[RL-Debug] Step: 26700 Reward: 230.06 Arm: 0 -> 0
+[RL-Debug] Step: 26800 Reward: -22.26 Arm: 0 -> 0
+[RL-Debug] Step: 26900 Reward: -19.94 Arm: 0 -> 0
+[RL-Debug] Step: 27000 Reward: 232.68 Arm: 0 -> 0
+[RL-Debug] Step: 27100 Reward: -19.42 Arm: 0 -> 0
+[RL-Debug] Step: 27200 Reward: -17.56 Arm: 0 -> 0
+[RL-Debug] Step: 27300 Reward: 29.78 Arm: 0 -> 0
+[RL-Debug] Step: 27400 Reward: -22.32 Arm: 0 -> 0
+[RL-Debug] Step: 27500 Reward: 77.38 Arm: 0 -> 0
+[RL-Debug] Step: 27600 Reward: 228.80 Arm: 0 -> 0
+[RL-Debug] Step: 27700 Reward: 31.18 Arm: 0 -> 0
+[RL-Debug] Step: 27800 Reward: -20.26 Arm: 0 -> 0
+[RL-Debug] Step: 27900 Reward: 28.42 Arm: 0 -> 0
+[RL-Debug] Step: 28000 Reward: 77.94 Arm: 0 -> 0
+[RL-Debug] Step: 28100 Reward: 26.52 Arm: 0 -> 0
+[RL-Debug] Step: 28200 Reward: 232.00 Arm: 0 -> 0
+[RL-Debug] Step: 28300 Reward: 79.84 Arm: 0 -> 0
+[RL-Debug] Step: 28400 Reward: 131.42 Arm: 0 -> 0
+[RL-Debug] Step: 28500 Reward: 181.66 Arm: 0 -> 0
+[RL-Debug] Step: 28600 Reward: 228.74 Arm: 0 -> 0
+[RL-Debug] Step: 28700 Reward: 230.40 Arm: 0 -> 0
+[RL-Debug] Step: 28800 Reward: 180.60 Arm: 0 -> 0
+[RL-Debug] Step: 28900 Reward: 78.16 Arm: 0 -> 0
+===============================================================================
+restarts              : 105
+conflicts             : 28938          (142812 /sec)
+decisions             : 36052          (0.00 % random) (177920 /sec)
+propagations          : 1342860        (6627153 /sec)
+conflict literals     : 401350         (19.35 % deleted)
+CPU time              : 0.20263 s
+
+SATISFIABLE

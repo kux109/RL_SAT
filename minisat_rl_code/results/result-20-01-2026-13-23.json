@@ -1,0 +1,1715 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60",
+        "date": "2026-01-20",
+        "time": "20-01-2026-13-24"
+    },
+    "summary": {
+        "total": 100,
+        "baseline_wins": 42,
+        "rl_wins": 58,
+        "ties": 0
+    },
+    "results": [
+        {
+            "instance": "flat30-1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00131,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001116,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-10.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-10.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001241,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001142,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-100.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-100.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001207,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001072,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-11.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-11.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001131,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001236,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-12.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-12.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001093,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001193,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-13.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-13.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001049,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001143,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-14.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-14.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001249,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001116,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-15.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-15.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001131,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001112,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-16.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-16.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00114,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001171,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-17.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-17.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001073,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001131,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-18.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-18.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001024,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00109,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-19.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-19.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001035,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001029,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-2.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001133,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00102,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-20.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-20.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001095,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001069,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-21.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-21.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001024,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001113,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-22.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-22.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001048,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001012,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-23.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-23.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001074,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001052,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-24.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-24.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001092,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001046,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-25.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-25.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000995,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001122,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-26.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-26.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001027,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-27.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-27.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001122,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001023,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-28.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-28.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001045,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001039,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-29.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-29.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001047,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001071,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001034,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001024,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-30.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-30.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001118,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001041,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-31.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-31.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001073,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001074,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-32.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-32.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001023,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001067,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-33.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-33.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001019,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001003,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-34.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-34.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001111,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001122,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-35.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-35.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001013,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001081,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-36.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-36.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001024,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001097,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-37.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-37.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00102,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001023,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-38.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-38.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001056,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001082,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-39.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-39.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001048,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001034,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-4.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000986,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001078,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-40.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-40.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001021,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001061,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-41.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-41.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001068,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-42.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-42.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001021,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001011,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-43.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-43.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00104,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001043,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-44.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-44.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001019,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000996,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-45.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-45.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001103,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001018,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-46.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-46.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001038,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001065,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-47.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-47.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000984,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001036,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-48.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-48.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001019,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000993,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-49.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-49.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00105,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001003,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001047,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00106,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-50.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-50.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001032,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-51.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-51.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00108,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00106,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-52.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-52.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001075,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001026,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-53.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-53.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001005,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001102,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-54.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-54.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001015,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001039,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-55.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-55.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001055,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001015,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-56.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-56.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001082,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001003,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-57.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-57.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001053,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001046,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-58.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-58.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001007,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001046,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-59.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-59.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001058,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000997,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001085,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001012,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-60.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-60.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001046,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-61.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-61.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000991,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001036,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-62.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-62.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001069,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001012,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-63.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-63.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001068,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000993,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-64.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-64.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001036,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001084,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-65.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-65.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001036,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000996,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-66.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-66.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001057,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000998,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-67.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-67.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001022,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001003,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-68.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-68.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001012,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00108,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-69.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-69.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000999,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000991,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001059,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001005,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-70.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-70.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001085,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001024,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-71.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-71.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00101,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001022,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-72.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-72.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001017,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001006,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-73.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-73.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001208,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001117,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-74.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-74.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001084,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001012,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-75.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-75.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001063,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001109,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-76.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-76.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00108,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001135,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-77.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-77.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001047,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00107,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-78.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-78.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001127,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001032,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-79.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-79.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001109,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001032,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-8.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001047,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001046,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-80.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-80.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00102,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001096,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-81.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-81.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001035,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001032,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-82.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-82.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001095,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000994,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-83.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-83.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001132,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001026,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-84.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-84.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001058,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00106,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-85.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-85.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001006,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00105,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-86.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-86.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001058,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001045,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-87.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-87.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001096,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00103,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-88.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-88.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001112,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001032,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-89.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-89.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001084,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001025,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000989,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001038,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-90.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-90.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000995,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.000988,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-91.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-91.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001072,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00102,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-92.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-92.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001034,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001005,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-93.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-93.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001009,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001062,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-94.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-94.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000984,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001096,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-95.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-95.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001063,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001011,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-96.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-96.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001188,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001015,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat30-97.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-97.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00102,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001069,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-98.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-98.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000997,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001027,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat30-99.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/existing_integrations/datasets/flat30-60/flat30-99.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001035,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001026,
+                "conflicts": 0,
+                "restarts": 1
+            },
+            "winner": "RL"
+        }
+    ]
+}
