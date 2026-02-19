@@ -19,7 +19,9 @@ def parse_minisat_output(output):
         "status": "UNKNOWN",
         "time": None,
         "conflicts": None,
-        "restarts": None
+        "restarts": None,
+        "avg_lbd": None,
+        "glue_ratio": None
     }
     
     # Status detection
@@ -52,6 +54,19 @@ def parse_minisat_output(output):
                 val = parts[1].replace("s", "").strip()
                 stats["time"] = float(val)
             except: pass
+        elif line.strip().startswith("avg lbd"):
+            try:
+                # avg lbd               : 4.56
+                parts = line.split(":")
+                stats["avg_lbd"] = float(parts[1].strip())
+            except: pass
+        elif line.strip().startswith("glue ratio"):
+            try:
+                # glue ratio            : 12.34 %   (123 / 1000)
+                parts = line.split(":")
+                val = parts[1].split("%")[0].strip()
+                stats["glue_ratio"] = float(val)
+            except: pass
 
     return stats
 
@@ -59,7 +74,7 @@ def run_solver(cnf_path, use_rl=False, rl_step=100):
     """
     Runs MiniSat on a single CNF file.
     """
-    cmd = [MINISAT_BIN]
+    cmd = [MINISAT_BIN, f"-cpu-lim={TIMEOUT}"]
     if use_rl:
         cmd.append("-rl")
         cmd.append(f"-rl-step={rl_step}")
@@ -73,17 +88,23 @@ def run_solver(cnf_path, use_rl=False, rl_step=100):
             cmd, 
             capture_output=True, 
             text=True, 
-            timeout=TIMEOUT
+            timeout=TIMEOUT + 5  # Give buffer for -cpu-lim to trigger
         )
         return parse_minisat_output(proc.stdout)
-    except subprocess.TimeoutExpired:
-        return {"status": "TIMEOUT", "time": TIMEOUT, "conflicts": -1, "restarts": -1}
+    except subprocess.TimeoutExpired as e:
+        # If it truly hangs, try to parse what we have
+        partial_output = e.stdout if e.stdout else ""
+        stats = parse_minisat_output(partial_output)
+        stats["status"] = "TIMEOUT" 
+        stats["time"] = TIMEOUT
+        return stats
     except Exception as e:
         return {"status": f"ERROR: {str(e)}", "time": 0, "conflicts": -1, "restarts": -1}
 
 def main():
     parser = argparse.ArgumentParser(description="Simple MiniSat Benchmark Script")
     parser.add_argument("input_dir", help="Directory containing .cnf files to benchmark")
+    parser.add_argument("--limit", type=int, default=0, help="Limit number of instances to run")
     args = parser.parse_args()
 
     input_dir = os.path.abspath(args.input_dir)
@@ -105,6 +126,10 @@ def main():
                 cnf_files.append(os.path.join(root, f))
     
     cnf_files.sort()
+    
+    if args.limit > 0:
+        print(f"Limiting to first {args.limit} instances.")
+        cnf_files = cnf_files[:args.limit]
     total_files = len(cnf_files)
     print(f"Found {total_files} CNF files.")
     

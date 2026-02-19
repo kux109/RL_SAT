@@ -1,0 +1,1715 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479",
+        "date": "2026-02-03",
+        "time": "03-02-2026-13-51"
+    },
+    "summary": {
+        "total": 100,
+        "baseline_wins": 82,
+        "rl_wins": 17,
+        "ties": 1
+    },
+    "results": [
+        {
+            "instance": "flat200-1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002467,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002419,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-10.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-10.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005804,
+                "conflicts": 480,
+                "restarts": 4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006058,
+                "conflicts": 480,
+                "restarts": 4
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-100.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-100.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010819,
+                "conflicts": 882,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011249,
+                "conflicts": 882,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-11.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-11.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006166,
+                "conflicts": 486,
+                "restarts": 4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006149,
+                "conflicts": 486,
+                "restarts": 4
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-12.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-12.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008893,
+                "conflicts": 749,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009067,
+                "conflicts": 749,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-13.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-13.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00914,
+                "conflicts": 752,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009854,
+                "conflicts": 752,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-14.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-14.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005863,
+                "conflicts": 452,
+                "restarts": 4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006114,
+                "conflicts": 452,
+                "restarts": 4
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-15.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-15.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004166,
+                "conflicts": 288,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004216,
+                "conflicts": 288,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-16.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-16.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005614,
+                "conflicts": 442,
+                "restarts": 4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006029,
+                "conflicts": 442,
+                "restarts": 4
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-17.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-17.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.068527,
+                "conflicts": 4950,
+                "restarts": 27
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.071102,
+                "conflicts": 4950,
+                "restarts": 27
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-18.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-18.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010768,
+                "conflicts": 922,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011183,
+                "conflicts": 922,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-19.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-19.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008284,
+                "conflicts": 713,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00893,
+                "conflicts": 713,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-2.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007363,
+                "conflicts": 606,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007395,
+                "conflicts": 606,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-20.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-20.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006776,
+                "conflicts": 564,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007088,
+                "conflicts": 564,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-21.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-21.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003442,
+                "conflicts": 252,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003577,
+                "conflicts": 252,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-22.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-22.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004687,
+                "conflicts": 392,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005093,
+                "conflicts": 392,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-23.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-23.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004875,
+                "conflicts": 373,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005165,
+                "conflicts": 373,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-24.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-24.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005567,
+                "conflicts": 446,
+                "restarts": 4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005766,
+                "conflicts": 446,
+                "restarts": 4
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-25.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-25.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003115,
+                "conflicts": 171,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002984,
+                "conflicts": 171,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-26.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-26.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.011067,
+                "conflicts": 855,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011574,
+                "conflicts": 855,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-27.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-27.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.019227,
+                "conflicts": 1515,
+                "restarts": 10
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.020007,
+                "conflicts": 1515,
+                "restarts": 10
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-28.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-28.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003992,
+                "conflicts": 276,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004183,
+                "conflicts": 276,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-29.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-29.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006923,
+                "conflicts": 544,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007293,
+                "conflicts": 544,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.013715,
+                "conflicts": 1072,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.014359,
+                "conflicts": 1072,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-30.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-30.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.01249,
+                "conflicts": 981,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.012946,
+                "conflicts": 981,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-31.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-31.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.011585,
+                "conflicts": 911,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.012233,
+                "conflicts": 911,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-32.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-32.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002781,
+                "conflicts": 151,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002744,
+                "conflicts": 151,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-33.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-33.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003285,
+                "conflicts": 208,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003294,
+                "conflicts": 208,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-34.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-34.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007833,
+                "conflicts": 628,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008252,
+                "conflicts": 628,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-35.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-35.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002753,
+                "conflicts": 145,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002557,
+                "conflicts": 145,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-36.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-36.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007336,
+                "conflicts": 602,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007631,
+                "conflicts": 602,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-37.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-37.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005259,
+                "conflicts": 435,
+                "restarts": 4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005302,
+                "conflicts": 435,
+                "restarts": 4
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-38.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-38.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003926,
+                "conflicts": 256,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003846,
+                "conflicts": 256,
+                "restarts": 3
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-39.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-39.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.063399,
+                "conflicts": 4640,
+                "restarts": 25
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.065991,
+                "conflicts": 4640,
+                "restarts": 25
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-4.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009618,
+                "conflicts": 754,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009924,
+                "conflicts": 754,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-40.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-40.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002448,
+                "conflicts": 108,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002227,
+                "conflicts": 108,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-41.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-41.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002107,
+                "conflicts": 98,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002107,
+                "conflicts": 98,
+                "restarts": 1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "flat200-42.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-42.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001932,
+                "conflicts": 92,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002275,
+                "conflicts": 92,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-43.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-43.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003178,
+                "conflicts": 215,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003373,
+                "conflicts": 215,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-44.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-44.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008795,
+                "conflicts": 781,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009464,
+                "conflicts": 781,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-45.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-45.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007409,
+                "conflicts": 578,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007748,
+                "conflicts": 578,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-46.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-46.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010585,
+                "conflicts": 866,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.010972,
+                "conflicts": 866,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-47.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-47.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.019848,
+                "conflicts": 1571,
+                "restarts": 10
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.020181,
+                "conflicts": 1571,
+                "restarts": 10
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-48.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-48.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.011239,
+                "conflicts": 887,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011531,
+                "conflicts": 887,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-49.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-49.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002722,
+                "conflicts": 157,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002644,
+                "conflicts": 157,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.049307,
+                "conflicts": 3775,
+                "restarts": 20
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.05128,
+                "conflicts": 3775,
+                "restarts": 20
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-50.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-50.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008276,
+                "conflicts": 693,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008556,
+                "conflicts": 693,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-51.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-51.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003155,
+                "conflicts": 188,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003034,
+                "conflicts": 188,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-52.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-52.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.015981,
+                "conflicts": 1245,
+                "restarts": 8
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.016801,
+                "conflicts": 1245,
+                "restarts": 8
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-53.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-53.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002468,
+                "conflicts": 105,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002266,
+                "conflicts": 105,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-54.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-54.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.019529,
+                "conflicts": 1621,
+                "restarts": 11
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.020435,
+                "conflicts": 1621,
+                "restarts": 11
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-55.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-55.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.050325,
+                "conflicts": 3598,
+                "restarts": 18
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.052402,
+                "conflicts": 3598,
+                "restarts": 18
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-56.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-56.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008209,
+                "conflicts": 650,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008371,
+                "conflicts": 650,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-57.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-57.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008361,
+                "conflicts": 702,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008844,
+                "conflicts": 702,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-58.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-58.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001768,
+                "conflicts": 24,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001566,
+                "conflicts": 24,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-59.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-59.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006206,
+                "conflicts": 546,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006639,
+                "conflicts": 546,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004187,
+                "conflicts": 297,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004418,
+                "conflicts": 297,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-60.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-60.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002636,
+                "conflicts": 160,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002742,
+                "conflicts": 160,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-61.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-61.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00155,
+                "conflicts": 26,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001482,
+                "conflicts": 26,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-62.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-62.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.013087,
+                "conflicts": 1083,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.014197,
+                "conflicts": 1083,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-63.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-63.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.013159,
+                "conflicts": 1031,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.013665,
+                "conflicts": 1031,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-64.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-64.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003547,
+                "conflicts": 246,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003604,
+                "conflicts": 246,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-65.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-65.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.027655,
+                "conflicts": 2048,
+                "restarts": 14
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.02867,
+                "conflicts": 2048,
+                "restarts": 14
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-66.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-66.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.027818,
+                "conflicts": 2189,
+                "restarts": 14
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.032637,
+                "conflicts": 2189,
+                "restarts": 14
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-67.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-67.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003951,
+                "conflicts": 138,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004097,
+                "conflicts": 138,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-68.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-68.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002891,
+                "conflicts": 133,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003091,
+                "conflicts": 133,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-69.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-69.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004254,
+                "conflicts": 172,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00365,
+                "conflicts": 172,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.015257,
+                "conflicts": 1145,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.015942,
+                "conflicts": 1145,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-70.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-70.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009025,
+                "conflicts": 729,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009131,
+                "conflicts": 729,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-71.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-71.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007747,
+                "conflicts": 599,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008146,
+                "conflicts": 599,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-72.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-72.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006817,
+                "conflicts": 552,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007197,
+                "conflicts": 552,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-73.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-73.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010395,
+                "conflicts": 816,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.010633,
+                "conflicts": 816,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-74.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-74.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010286,
+                "conflicts": 808,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.010846,
+                "conflicts": 808,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-75.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-75.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004463,
+                "conflicts": 334,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004687,
+                "conflicts": 334,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-76.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-76.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00788,
+                "conflicts": 644,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00835,
+                "conflicts": 644,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-77.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-77.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.014626,
+                "conflicts": 1112,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.014972,
+                "conflicts": 1112,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-78.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-78.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006878,
+                "conflicts": 547,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007401,
+                "conflicts": 547,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-79.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-79.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.026349,
+                "conflicts": 1924,
+                "restarts": 13
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.027514,
+                "conflicts": 1924,
+                "restarts": 13
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-8.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002415,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002237,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-80.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-80.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.0045,
+                "conflicts": 363,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004845,
+                "conflicts": 363,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-81.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-81.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.018437,
+                "conflicts": 1430,
+                "restarts": 10
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.019279,
+                "conflicts": 1430,
+                "restarts": 10
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-82.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-82.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008201,
+                "conflicts": 648,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008321,
+                "conflicts": 648,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-83.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-83.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.016663,
+                "conflicts": 1332,
+                "restarts": 9
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.017119,
+                "conflicts": 1332,
+                "restarts": 9
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-84.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-84.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007372,
+                "conflicts": 573,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00762,
+                "conflicts": 573,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-85.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-85.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009173,
+                "conflicts": 766,
+                "restarts": 6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009721,
+                "conflicts": 766,
+                "restarts": 6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-86.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-86.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003754,
+                "conflicts": 257,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003833,
+                "conflicts": 257,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-87.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-87.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.014821,
+                "conflicts": 1113,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.015136,
+                "conflicts": 1113,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-88.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-88.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.01131,
+                "conflicts": 865,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011505,
+                "conflicts": 865,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-89.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-89.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002819,
+                "conflicts": 161,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002776,
+                "conflicts": 161,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.016292,
+                "conflicts": 1298,
+                "restarts": 8
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.017027,
+                "conflicts": 1298,
+                "restarts": 8
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-90.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-90.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006011,
+                "conflicts": 488,
+                "restarts": 4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006132,
+                "conflicts": 488,
+                "restarts": 4
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-91.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-91.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002975,
+                "conflicts": 179,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002874,
+                "conflicts": 179,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-92.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-92.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004172,
+                "conflicts": 318,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004429,
+                "conflicts": 318,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-93.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-93.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006275,
+                "conflicts": 503,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006524,
+                "conflicts": 503,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-94.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-94.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004203,
+                "conflicts": 284,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004294,
+                "conflicts": 284,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-95.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-95.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.013853,
+                "conflicts": 1071,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.014229,
+                "conflicts": 1071,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-96.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-96.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004907,
+                "conflicts": 364,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004956,
+                "conflicts": 364,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-97.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-97.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002033,
+                "conflicts": 55,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001932,
+                "conflicts": 55,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-98.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-98.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006196,
+                "conflicts": 506,
+                "restarts": 5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006569,
+                "conflicts": 506,
+                "restarts": 5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-99.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/Flat200-479/flat200-99.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009849,
+                "conflicts": 814,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.010665,
+                "conflicts": 814,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        }
+    ]
+}

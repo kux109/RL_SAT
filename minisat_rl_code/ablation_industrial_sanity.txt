@@ -1,0 +1,84 @@
+=== RL-SAT Ablation Study Log ===
+
+
+--- Benchmarking: BMS_k3_n100_m429_0.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0059s (1419 confl)
+  [RL_Full_Context] SAT in 0.0062s (1419 confl)
+  [RL_No_Glue] SAT in 0.0047s (971 confl)
+  [RL_No_LBD] SAT in 0.0063s (1419 confl)
+  [RL_Context_Blind] SAT in 0.0067s (1419 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_1.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0030s (348 confl)
+  [RL_Full_Context] SAT in 0.0032s (348 confl)
+  [RL_No_Glue] SAT in 0.0032s (348 confl)
+  [RL_No_LBD] SAT in 0.0031s (348 confl)
+  [RL_Context_Blind] SAT in 0.0024s (348 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_10.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0026s (279 confl)
+  [RL_Full_Context] SAT in 0.0023s (279 confl)
+  [RL_No_Glue] SAT in 0.0021s (279 confl)
+  [RL_No_LBD] SAT in 0.0021s (279 confl)
+  [RL_Context_Blind] SAT in 0.0020s (279 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_100.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0020s (264 confl)
+  [RL_Full_Context] SAT in 0.0020s (264 confl)
+  [RL_No_Glue] SAT in 0.0021s (264 confl)
+  [RL_No_LBD] SAT in 0.0020s (264 confl)
+  [RL_Context_Blind] SAT in 0.0020s (264 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_101.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0013s (48 confl)
+  [RL_Full_Context] SAT in 0.0012s (48 confl)
+  [RL_No_Glue] SAT in 0.0012s (48 confl)
+  [RL_No_LBD] SAT in 0.0012s (48 confl)
+  [RL_Context_Blind] SAT in 0.0012s (48 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_102.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0014s (115 confl)
+  [RL_Full_Context] SAT in 0.0014s (115 confl)
+  [RL_No_Glue] SAT in 0.0014s (115 confl)
+  [RL_No_LBD] SAT in 0.0014s (115 confl)
+  [RL_Context_Blind] SAT in 0.0014s (115 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_103.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0032s (657 confl)
+  [RL_Full_Context] SAT in 0.0033s (657 confl)
+  [RL_No_Glue] SAT in 0.0036s (741 confl)
+  [RL_No_LBD] SAT in 0.0034s (657 confl)
+  [RL_Context_Blind] SAT in 0.0034s (657 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_104.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0014s (86 confl)
+  [RL_Full_Context] SAT in 0.0014s (86 confl)
+  [RL_No_Glue] SAT in 0.0014s (86 confl)
+  [RL_No_LBD] SAT in 0.0014s (86 confl)
+  [RL_Context_Blind] SAT in 0.0014s (86 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_105.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0026s (436 confl)
+  [RL_Full_Context] SAT in 0.0027s (436 confl)
+  [RL_No_Glue] SAT in 0.0027s (436 confl)
+  [RL_No_LBD] SAT in 0.0028s (436 confl)
+  [RL_Context_Blind] SAT in 0.0028s (436 confl)
+
+--- Benchmarking: BMS_k3_n100_m429_106.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0020s (234 confl)
+  [RL_Full_Context] SAT in 0.0022s (234 confl)
+  [RL_No_Glue] SAT in 0.0022s (234 confl)
+  [RL_No_LBD] SAT in 0.0020s (234 confl)
+  [RL_Context_Blind] SAT in 0.0021s (234 confl)
+
+
+=== ABLATION RESULTS SUMMARY ===
+Configuration             | Solved   | Avg Time   | Avg Confl 
+-----------------------------------------------------------------
+Baseline (MiniSat)        | 10       | 0.0025     | 388.6     
+RL_Full_Context           | 10       | 0.0026     | 388.6     
+RL_No_Glue                | 10       | 0.0025     | 352.2     
+RL_No_LBD                 | 10       | 0.0026     | 388.6     
+RL_Context_Blind          | 10       | 0.0025     | 388.6     
+
+Full results saved to ablation_results.json

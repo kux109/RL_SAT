@@ -1,0 +1,5115 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial",
+        "date": "2026-02-03",
+        "time": "03-02-2026-14-11"
+    },
+    "summary": {
+        "total": 300,
+        "baseline_wins": 239,
+        "rl_wins": 61,
+        "ties": 0
+    },
+    "results": [
+        {
+            "instance": "adv_mask_n500_0.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_0.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002709,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002926,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002713,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002891,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_10.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_10.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002732,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002814,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_100.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_100.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002758,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002865,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_101.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_101.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002674,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002867,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_102.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_102.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002672,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002935,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_103.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_103.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002757,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002744,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_mask_n500_104.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_104.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002725,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002995,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_105.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_105.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002672,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00291,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_106.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_106.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002689,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002961,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_107.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_107.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002556,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002839,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_108.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_108.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002736,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002963,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_109.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_109.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002537,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00277,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_11.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_11.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002616,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002767,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_110.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_110.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002558,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002774,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_111.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_111.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002756,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002975,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_112.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_112.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002535,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002804,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_113.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_113.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002632,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002892,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_114.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_114.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002498,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002812,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_115.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_115.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002688,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002846,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_116.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_116.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002875,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004481,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_117.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_117.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00399,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003643,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_mask_n500_118.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_118.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002995,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003188,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_119.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_119.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003375,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003305,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_mask_n500_12.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_12.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002778,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002939,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_120.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_120.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002684,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002881,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_121.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_121.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.0025,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002887,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_122.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_122.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002676,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00295,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_123.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_123.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002695,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002956,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_124.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_124.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002573,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002797,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_125.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_125.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002807,
+                "conflicts": 106,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003101,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_126.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_126.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002797,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00295,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_127.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_127.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002631,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00291,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_128.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_128.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002641,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002879,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_129.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_129.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002646,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00285,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_13.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_13.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002681,
+                "conflicts": 105,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003024,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_130.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_130.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00278,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002916,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_131.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_131.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002674,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002857,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_132.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_132.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002545,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00285,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_133.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_133.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002591,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002805,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_134.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_134.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002656,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002882,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_135.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_135.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00263,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002904,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_136.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_136.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002688,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002839,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_137.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_137.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002678,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002897,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_138.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_138.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002636,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002958,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_139.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_139.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002595,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002818,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_14.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_14.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.0026,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002834,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_140.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_140.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002653,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002814,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_141.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_141.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002754,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002955,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_142.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_142.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002745,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00304,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_143.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_143.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002638,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002976,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_144.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_144.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002613,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002774,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_145.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_145.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002636,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002835,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_146.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_146.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002613,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002783,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_147.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_147.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002596,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002763,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_148.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_148.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002784,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002911,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_149.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_149.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002692,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002899,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_15.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_15.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00275,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002963,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_150.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_150.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002797,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002978,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_151.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_151.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002662,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002936,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_152.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_152.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002653,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002879,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_153.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_153.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002633,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002793,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_154.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_154.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002719,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002936,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_155.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_155.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002664,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00283,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_156.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_156.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002646,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00302,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_157.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_157.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002773,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003026,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_158.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_158.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002835,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00303,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_159.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_159.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002719,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003047,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_16.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_16.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00272,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002938,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_160.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_160.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00273,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00305,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_161.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_161.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002839,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00295,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_162.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_162.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002735,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002924,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_163.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_163.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002613,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002874,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_164.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_164.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00263,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002861,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_165.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_165.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002633,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002788,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_166.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_166.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002575,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002793,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_167.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_167.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002582,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002826,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_168.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_168.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002616,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002986,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_169.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_169.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002683,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002958,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_17.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_17.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002862,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002802,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_mask_n500_170.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_170.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002557,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.0028,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_171.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_171.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00275,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003031,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_172.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_172.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002799,
+                "conflicts": 106,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003079,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_173.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_173.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002934,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00322,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_174.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_174.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002947,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003279,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_175.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_175.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002897,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003136,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_176.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_176.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002729,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002958,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_177.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_177.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002752,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002922,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_178.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_178.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002758,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002926,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_179.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_179.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002593,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002753,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_18.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_18.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002745,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002857,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_180.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_180.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00268,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002903,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_181.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_181.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002839,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002921,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_182.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_182.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002743,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003122,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_183.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_183.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00283,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003067,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_184.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_184.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002735,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002989,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_185.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_185.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00276,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002967,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_186.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_186.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002792,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002922,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_187.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_187.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002629,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002887,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_188.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_188.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002705,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003038,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_189.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_189.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002703,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002894,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_19.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_19.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00283,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002905,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_190.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_190.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002595,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002965,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_191.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_191.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002524,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002853,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_192.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_192.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002852,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002965,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_193.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_193.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002731,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002803,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_194.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_194.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002646,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002793,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_195.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_195.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002641,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002896,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_196.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_196.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002625,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002899,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_197.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_197.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002757,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003198,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_198.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_198.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002671,
+                "conflicts": 105,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002916,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_199.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_199.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002797,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003082,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_2.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002599,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002951,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_20.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_20.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002556,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002759,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_21.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_21.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002606,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002886,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_22.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_22.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002592,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002823,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_23.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_23.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002773,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003207,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_24.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_24.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002722,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002903,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_25.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_25.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002777,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002961,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_26.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_26.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002652,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002979,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_27.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_27.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00271,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002935,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_28.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_28.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002719,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002934,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_29.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_29.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002603,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002859,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002742,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002897,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_30.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_30.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002671,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002959,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_31.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_31.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002671,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003024,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_32.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_32.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002561,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002833,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_33.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_33.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002559,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002706,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_34.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_34.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002663,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002875,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_35.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_35.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00273,
+                "conflicts": 105,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002907,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_36.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_36.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002582,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002756,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_37.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_37.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002655,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002986,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_38.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_38.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002543,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002712,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_39.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_39.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002648,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002881,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_4.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002753,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00299,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_40.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_40.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002563,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002813,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_41.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_41.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002725,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002884,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_42.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_42.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002679,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002865,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_43.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_43.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002771,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003085,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_44.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_44.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002813,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002872,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_45.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_45.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002611,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002842,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_46.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_46.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002702,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002914,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_47.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_47.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002845,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003098,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_48.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_48.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002796,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003004,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_49.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_49.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002662,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00281,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002649,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002887,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_50.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_50.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002689,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002819,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_51.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_51.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002532,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002859,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_52.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_52.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002533,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002741,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_53.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_53.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002686,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003053,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_54.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_54.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002692,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002964,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_55.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_55.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002847,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003098,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_56.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_56.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002784,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002963,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_57.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_57.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002753,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002927,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_58.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_58.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002685,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002873,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_59.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_59.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002655,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002928,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002776,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002963,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_60.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_60.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002534,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002734,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_61.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_61.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002617,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002835,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_62.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_62.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00267,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002871,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_63.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_63.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002575,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002846,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_64.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_64.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002513,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002736,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_65.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_65.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002666,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002857,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_66.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_66.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002717,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002903,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_67.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_67.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002566,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002865,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_68.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_68.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002711,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002981,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_69.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_69.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002789,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002901,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002581,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002767,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_70.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_70.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002768,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00286,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_71.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_71.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002714,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002902,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_72.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_72.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002588,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002882,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_73.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_73.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002766,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002931,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_74.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_74.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002648,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002855,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_75.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_75.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002533,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002854,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_76.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_76.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002685,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002837,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_77.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_77.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002685,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002977,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_78.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_78.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002718,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00294,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_79.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_79.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002714,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002993,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_8.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002552,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002751,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_80.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_80.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002751,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002999,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_81.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_81.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002649,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00288,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_82.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_82.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002678,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002807,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_83.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_83.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002602,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002889,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_84.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_84.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002683,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002918,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_85.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_85.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002679,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00296,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_86.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_86.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002766,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002843,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_87.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_87.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002674,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003036,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_88.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_88.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002654,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002831,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_89.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_89.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.0027,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002862,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002599,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002976,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_90.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_90.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002686,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002903,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_91.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_91.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002645,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002807,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_92.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_92.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002599,
+                "conflicts": 103,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002841,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_93.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_93.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002498,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002715,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_94.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_94.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002604,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002859,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_95.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_95.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002654,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002836,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_96.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_96.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002651,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002781,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_97.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_97.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002707,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002878,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_98.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_98.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002775,
+                "conflicts": 101,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002997,
+                "conflicts": 100,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_mask_n500_99.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_mask_n500_99.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002707,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002968,
+                "conflicts": 102,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_0.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_0.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001631,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001536,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001487,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001535,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_10.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_10.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001498,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001694,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_11.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_11.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001557,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001637,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_12.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_12.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001541,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001557,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_13.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_13.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001502,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001521,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_14.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_14.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001589,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001488,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_15.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_15.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001526,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001508,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_16.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_16.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001517,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001474,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_17.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_17.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001513,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001451,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_18.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_18.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001495,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001464,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_19.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_19.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001564,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001496,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_2.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001617,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00148,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_20.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_20.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001537,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001508,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_21.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_21.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001674,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00152,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_22.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_22.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001509,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001449,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_23.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_23.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001561,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.0015,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_24.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_24.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001584,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001565,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_25.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_25.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001511,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001501,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_26.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_26.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001527,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00158,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_27.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_27.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001564,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001498,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_28.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_28.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001499,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001589,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_29.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_29.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001536,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001516,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001538,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00152,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_30.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_30.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001551,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001463,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_31.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_31.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001507,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001519,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_32.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_32.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001641,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001494,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_33.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_33.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001552,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001503,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_34.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_34.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001462,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001483,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_35.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_35.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001518,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001601,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_36.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_36.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001562,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001556,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_37.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_37.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001642,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001693,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_38.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_38.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001592,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001685,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_39.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_39.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001721,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001697,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_4.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001524,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001569,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_40.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_40.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001569,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001532,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_41.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_41.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001581,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001721,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_42.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_42.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00162,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00151,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_43.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_43.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001571,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00152,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_44.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_44.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001529,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001478,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_45.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_45.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001511,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00151,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_46.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_46.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001582,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001509,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_47.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_47.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001575,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001481,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_48.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_48.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00155,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001486,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_49.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_49.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001511,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00154,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n1050_5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001547,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001528,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001572,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001505,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001548,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001522,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_8.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001517,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001505,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n1050_9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n1050_9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001591,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001517,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_0.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_0.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001199,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001191,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001178,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001048,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_10.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_10.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001193,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001194,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_11.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_11.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001162,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001091,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_12.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_12.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001079,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001108,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_13.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_13.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001105,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001169,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_14.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_14.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001033,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001136,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_15.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_15.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001111,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001112,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_16.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_16.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001143,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001042,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_17.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_17.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001123,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001107,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_18.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_18.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001196,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001065,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_19.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_19.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001094,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001114,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_2.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001097,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001151,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_20.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_20.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001024,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001125,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_21.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_21.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001064,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001062,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_22.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_22.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001161,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001075,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_23.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_23.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00112,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001111,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_24.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_24.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00128,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001055,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_25.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_25.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001124,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001156,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_26.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_26.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00106,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001148,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_27.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_27.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001066,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001137,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_28.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_28.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.0011,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001158,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_29.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_29.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001047,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001111,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001105,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00108,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_30.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_30.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001153,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001094,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_31.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_31.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001107,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001087,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_32.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_32.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001061,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001107,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_33.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_33.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001019,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001124,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_34.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_34.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001048,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001118,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_35.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_35.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001059,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001084,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_36.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_36.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001082,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001127,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_37.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_37.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001101,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001051,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_38.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_38.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001188,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001054,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_39.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_39.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001054,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001208,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_4.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00106,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001143,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_40.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_40.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001083,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001095,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_41.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_41.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001087,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001045,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_42.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_42.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001104,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001112,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_43.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_43.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001104,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001069,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_44.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_44.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001086,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001083,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_45.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_45.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001022,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001173,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_46.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_46.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001055,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001174,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_47.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_47.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001038,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001113,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_48.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_48.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001107,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00104,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_49.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_49.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001148,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001077,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001107,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001037,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "adv_trap_n110_6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001082,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001166,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001109,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001275,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_8.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00131,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001457,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "adv_trap_n110_9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/adversarial/adv_trap_n110_9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001479,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001268,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        }
+    ]
+}

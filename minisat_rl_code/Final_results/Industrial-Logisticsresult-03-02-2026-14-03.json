@@ -1,0 +1,83 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/logistics",
+        "date": "2026-02-03",
+        "time": "03-02-2026-14-03"
+    },
+    "summary": {
+        "total": 4,
+        "baseline_wins": 1,
+        "rl_wins": 3,
+        "ties": 0
+    },
+    "results": [
+        {
+            "instance": "logistics.a.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/logistics/logistics.a.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002704,
+                "conflicts": 145,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002671,
+                "conflicts": 145,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "logistics.b.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/logistics/logistics.b.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00277,
+                "conflicts": 129,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002741,
+                "conflicts": 129,
+                "restarts": 2
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "logistics.c.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/logistics/logistics.c.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004624,
+                "conflicts": 342,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004728,
+                "conflicts": 342,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "logistics.d.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/logistics/logistics.d.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00419,
+                "conflicts": 37,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004166,
+                "conflicts": 37,
+                "restarts": 1
+            },
+            "winner": "RL"
+        }
+    ]
+}

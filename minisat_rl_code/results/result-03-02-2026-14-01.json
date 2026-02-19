@@ -1,0 +1,134 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld",
+        "date": "2026-02-03",
+        "time": "03-02-2026-14-01"
+    },
+    "summary": {
+        "total": 7,
+        "baseline_wins": 5,
+        "rl_wins": 2,
+        "ties": 0
+    },
+    "results": [
+        {
+            "instance": "anomaly.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld/anomaly.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001248,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001072,
+                "conflicts": 1,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "bw_large.a.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld/bw_large.a.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001754,
+                "conflicts": 18,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001801,
+                "conflicts": 18,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "bw_large.b.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld/bw_large.b.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003107,
+                "conflicts": 55,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003169,
+                "conflicts": 55,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "bw_large.c.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld/bw_large.c.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.02751,
+                "conflicts": 1028,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.028033,
+                "conflicts": 1028,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "bw_large.d.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld/bw_large.d.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.057418,
+                "conflicts": 1581,
+                "restarts": 10
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.058292,
+                "conflicts": 1581,
+                "restarts": 10
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "huge.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld/huge.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002062,
+                "conflicts": 21,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001957,
+                "conflicts": 21,
+                "restarts": 1
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "medium.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/industrial/blocksworld/medium.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001276,
+                "conflicts": 5,
+                "restarts": 1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001279,
+                "conflicts": 5,
+                "restarts": 1
+            },
+            "winner": "BASELINE"
+        }
+    ]
+}

@@ -51,7 +51,16 @@ void printStats(Solver &solver) {
   printf("conflict literals     : %-12" PRIu64 "   (%4.2f %% deleted)\n",
          solver.tot_literals,
          (solver.max_literals - solver.tot_literals) * 100 /
+             (solver.max_literals - solver.tot_literals) * 100 /
              (double)solver.max_literals);
+  if (solver.total_lbd_count > 0) {
+    printf("avg lbd               : %-12.2f\n",
+           (double)solver.total_lbd_sum / solver.total_lbd_count);
+    printf("glue ratio            : %-12.2f %%   (%llu / %llu)\n",
+           ((double)solver.total_glue_count / solver.total_lbd_count) * 100.0,
+           (unsigned long long)solver.total_glue_count,
+           (unsigned long long)solver.total_lbd_count);
+  }
   if (mem_used != 0)
     printf("Memory used           : %.2f MB\n", mem_used);
   printf("CPU time              : %g s\n", cpu_time);
@@ -111,6 +120,14 @@ int main(int argc, char **argv) {
     IntOption opt_rl_step("MAIN", "rl-step", "RL Step Size (frequency)", 500,
                           IntRange(1, INT32_MAX));
 
+    // [RL Ablations]
+    BoolOption opt_rl_dummy("MAIN", "rl-dummy",
+                            "Ablation: Use Dummy State (Context-Blind)", false);
+    BoolOption opt_rl_no_glue("MAIN", "rl-no-glue",
+                              "Ablation: Disable Glue Reward", false);
+    BoolOption opt_rl_no_lbd("MAIN", "rl-no-lbd",
+                             "Ablation: Disable LBD Penalty", false);
+
     parseOptions(argc, argv, true);
 
     Solver S;
@@ -121,6 +138,11 @@ int main(int argc, char **argv) {
     // [RL Init]
     S.use_rl = opt_rl;
     S.rl_step_size = opt_rl_step;
+    // Ablations
+    S.rl_dummy_state = opt_rl_dummy;
+    S.rl_no_glue_reward = opt_rl_no_glue;
+    S.rl_no_lbd_penalty = opt_rl_no_lbd;
+
     S.initRL();
 
     solver = &S;

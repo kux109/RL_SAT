@@ -40,12 +40,22 @@ public:
   // [RL Integration]
   bool use_rl;
   int rl_step_size;
+  // Ablation Flags
+  bool rl_dummy_state;
+  bool rl_no_glue_reward;
+  bool rl_no_lbd_penalty;
+
   LinUCB *agent;
   int current_arm;
   int epoch_start;
   int epoch_lbd_sum;
   int epoch_lbd_count;
   int epoch_glue_count;
+  
+  // [Analysis] Total Stats
+  uint64_t total_lbd_sum;
+  uint64_t total_lbd_count;
+  uint64_t total_glue_count;
 
   void initRL(); // Helper to init agent
 

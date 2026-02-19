@@ -117,7 +117,11 @@ Solver::Solver()
       // RL Init
       ,
       use_rl(false), rl_step_size(500), agent(NULL), current_arm(0),
-      epoch_start(0), epoch_lbd_sum(0), epoch_lbd_count(0), epoch_glue_count(0)
+      // Ablation Defaults
+      rl_dummy_state(false), rl_no_glue_reward(false), rl_no_lbd_penalty(false),
+
+      epoch_start(0), epoch_lbd_sum(0), epoch_lbd_count(0), epoch_glue_count(0),
+      total_lbd_sum(0), total_lbd_count(0), total_glue_count(0)
 
 {}
 
@@ -694,59 +698,75 @@ lbool Solver::search(int nof_conflicts) {
         uncheckedEnqueue(learnt_clause[0], cr);
       }
 
-      // [RL Integration] Compute LBD & Stats
+      // [RL Integration] Compute LBD & Stats (Always, for Metrics Comparison)
+      int lbd = 0;
+      if (learnt_clause.size() > 0) {
+        std::vector<int> lvls;
+        for (int k = 0; k < learnt_clause.size(); k++)
+          lvls.push_back(level(var(learnt_clause[k])));
+        std::sort(lvls.begin(), lvls.end());
+        lbd = std::unique(lvls.begin(), lvls.end()) - lvls.begin();
+      }
+
       if (use_rl) {
-        int lbd = 0;
-        if (learnt_clause.size() > 0) {
-          std::vector<int> lvls;
-          for (int k = 0; k < learnt_clause.size(); k++)
-            lvls.push_back(level(var(learnt_clause[k])));
-          std::sort(lvls.begin(), lvls.end());
-          lbd = std::unique(lvls.begin(), lvls.end()) - lvls.begin();
-        }
         epoch_lbd_sum += lbd;
         epoch_lbd_count++;
-        if (lbd <= 2)
+        if (lbd <= 2) {
           epoch_glue_count++;
-
-        // Epoch Boundary
-        if (conflicts % rl_step_size == 0) {
-          // Reward: (Glue*50) - (AvgLBD*2) - (Conflicts*0.01)
-          double avg_lbd = (epoch_lbd_count > 0)
-                               ? (double)epoch_lbd_sum / epoch_lbd_count
-                               : 0;
-          double reward = (epoch_glue_count * 50.0) - (avg_lbd * 2.0) -
-                          (rl_step_size * 0.01);
-
-          // Features
-          Vector features(5);
-          features[0] = (double)nClauses();
-          features[1] = (double)nLearnts();
-          features[2] = (double)conflicts;
-          features[3] = (double)decisions;
-          features[4] = (double)starts;
-          // Normalize
-          if (features[0] > 1)
-            features[0] /= 10000.0;
-          if (features[1] > 1)
-            features[1] /= 10000.0;
-          if (features[2] > 1)
-            features[2] /= 10000.0;
-          if (features[3] > 1)
-            features[3] /= 10000.0;
-          if (features[4] > 1)
-            features[4] /= 100.0;
-
-          if (agent) {
-            agent->update(current_arm, features, reward);
-            current_arm = agent->select(features);
-          }
-
-          // Reset
-          epoch_lbd_sum = 0;
-          epoch_lbd_count = 0;
-          epoch_glue_count = 0;
         }
+      }
+
+      // Global stats (for reporting)
+      if (lbd <= 2)
+        total_glue_count++;
+      total_lbd_sum += lbd;
+      total_lbd_count++;
+
+      // Epoch Boundary
+      if (use_rl && conflicts % rl_step_size == 0) {
+        // Reward: (Glue*50) - (AvgLBD*2) - (Conflicts*0.01)
+        double avg_lbd =
+            (epoch_lbd_count > 0) ? (double)epoch_lbd_sum / epoch_lbd_count : 0;
+        // ... rest of RL logic
+        double r_glue = rl_no_glue_reward ? 0.0 : (epoch_glue_count * 50.0);
+        double r_lbd = rl_no_lbd_penalty ? 0.0 : (avg_lbd * 2.0);
+
+        double reward = (r_glue - r_lbd - (rl_step_size * 0.01)) / 100.0;
+
+        // Features
+        Vector features(5);
+        features[0] = (double)nClauses();
+        features[1] = (double)nLearnts();
+        features[2] = (double)conflicts;
+        features[3] = (double)decisions;
+        features[4] = (double)starts;
+        // Normalize
+        if (features[0] > 1)
+          features[0] /= 10000.0;
+        if (features[1] > 1)
+          features[1] /= 10000.0;
+        if (features[2] > 1)
+          features[2] /= 10000.0;
+        if (features[3] > 1)
+          features[3] /= 10000.0;
+        if (features[4] > 1)
+          features[4] /= 100.0;
+
+        // [Ablation Logic]
+        if (rl_dummy_state) {
+          for (int i = 0; i < 5; i++)
+            features[i] = 0.0;
+        }
+
+        if (agent) {
+          agent->update(current_arm, features, reward);
+          current_arm = agent->select(features);
+        }
+
+        // Reset
+        epoch_lbd_sum = 0;
+        epoch_lbd_count = 0;
+        epoch_glue_count = 0;
       }
 
       varDecayActivity();

@@ -1,0 +1,525 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random",
+        "date": "2026-02-03",
+        "time": "03-02-2026-14-35"
+    },
+    "summary": {
+        "total": 30,
+        "baseline_wins": 7,
+        "rl_wins": 13,
+        "ties": 10
+    },
+    "results": [
+        {
+            "instance": "rnd_3sat_n300_0.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_0.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.7298,
+                "conflicts": 229218,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.335663,
+                "conflicts": 44969,
+                "restarts": 128
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.79685,
+                "conflicts": 239989,
+                "restarts": 549
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.328968,
+                "conflicts": 43274,
+                "restarts": 127
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_10.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_10.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 20.7195,
+                "conflicts": 2401504,
+                "restarts": 4095
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 27.4796,
+                "conflicts": 2894307,
+                "restarts": 5116
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_3sat_n300_11.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_11.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_12.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_12.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_13.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_13.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_14.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_14.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 18.7749,
+                "conflicts": 2184850,
+                "restarts": 4094
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 7.35296,
+                "conflicts": 835254,
+                "restarts": 1789
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_15.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_15.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_16.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_16.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.614808,
+                "conflicts": 85056,
+                "restarts": 254
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.10624,
+                "conflicts": 138815,
+                "restarts": 381
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_3sat_n300_17.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_17.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 20.3908,
+                "conflicts": 2395174,
+                "restarts": 4095
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 20.5751,
+                "conflicts": 2243805,
+                "restarts": 4094
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_3sat_n300_18.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_18.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 2.22321,
+                "conflicts": 297002,
+                "restarts": 715
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.67376,
+                "conflicts": 213720,
+                "restarts": 511
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_19.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_19.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 28.9127,
+                "conflicts": 3265138,
+                "restarts": 5818
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_3sat_n300_2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_2.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_20.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_20.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 2.00155,
+                "conflicts": 267009,
+                "restarts": 637
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.524446,
+                "conflicts": 70899,
+                "restarts": 221
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_21.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_21.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_22.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_22.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 19.4812,
+                "conflicts": 2277265,
+                "restarts": 4095
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 3.74513,
+                "conflicts": 447290,
+                "restarts": 1022
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_23.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_23.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.71611,
+                "conflicts": 229690,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.559178,
+                "conflicts": 74786,
+                "restarts": 236
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_24.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_24.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 18.7418,
+                "conflicts": 2186378,
+                "restarts": 4094
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 12.5638,
+                "conflicts": 1430189,
+                "restarts": 2779
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_25.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_25.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.61756,
+                "conflicts": 214012,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.043792,
+                "conflicts": 5577,
+                "restarts": 29
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_26.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_26.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 3.77301,
+                "conflicts": 475754,
+                "restarts": 1023
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_3sat_n300_27.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_27.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_28.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_28.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_29.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_29.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.987496,
+                "conflicts": 132214,
+                "restarts": 363
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.90956,
+                "conflicts": 235036,
+                "restarts": 533
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_3sat_n300_3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 8.71831,
+                "conflicts": 1062559,
+                "restarts": 2047
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 2.56022,
+                "conflicts": 311921,
+                "restarts": 764
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_4.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 8.93056,
+                "conflicts": 1106806,
+                "restarts": 2047
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.93676,
+                "conflicts": 241296,
+                "restarts": 557
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 24.7077,
+                "conflicts": 2854281,
+                "restarts": 5050
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "rnd_3sat_n300_7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 6.14949,
+                "conflicts": 769910,
+                "restarts": 1628
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.60498,
+                "conflicts": 80288,
+                "restarts": 253
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "rnd_3sat_n300_8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_8.cnf",
+            "baseline": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "rl": {
+                "status": "TIMEOUT",
+                "time": 30,
+                "conflicts": -1,
+                "restarts": -1
+            },
+            "winner": "TIE"
+        },
+        {
+            "instance": "rnd_3sat_n300_9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/hard_random/rnd_3sat_n300_9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 4.8041,
+                "conflicts": 598218,
+                "restarts": 1277
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.22793,
+                "conflicts": 153442,
+                "restarts": 412
+            },
+            "winner": "RL"
+        }
+    ]
+}

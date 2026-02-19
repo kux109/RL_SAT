@@ -1,0 +1,1715 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250",
+        "date": "2026-01-20",
+        "time": "20-01-2026-13-55"
+    },
+    "summary": {
+        "total": 100,
+        "baseline_wins": 45,
+        "rl_wins": 55,
+        "ties": 0
+    },
+    "results": [
+        {
+            "instance": "uf250-01.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-01.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.115357,
+                "conflicts": 28938,
+                "restarts": 105
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.202577,
+                "conflicts": 47225,
+                "restarts": 141
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-010.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-010.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.219398,
+                "conflicts": 55045,
+                "restarts": 172
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.345947,
+                "conflicts": 78892,
+                "restarts": 252
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-0100.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-0100.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.437353,
+                "conflicts": 105244,
+                "restarts": 270
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.628188,
+                "conflicts": 137496,
+                "restarts": 380
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-011.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-011.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 2.47703,
+                "conflicts": 551078,
+                "restarts": 1149
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.108289,
+                "conflicts": 26339,
+                "restarts": 94
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-012.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-012.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.066301,
+                "conflicts": 17376,
+                "restarts": 63
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.14073,
+                "conflicts": 34144,
+                "restarts": 125
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-013.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-013.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.852779,
+                "conflicts": 203982,
+                "restarts": 510
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.226397,
+                "conflicts": 53526,
+                "restarts": 164
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-014.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-014.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.111517,
+                "conflicts": 28601,
+                "restarts": 103
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.100199,
+                "conflicts": 24424,
+                "restarts": 91
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-015.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-015.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.093903,
+                "conflicts": 24417,
+                "restarts": 91
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.067069,
+                "conflicts": 16825,
+                "restarts": 63
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-016.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-016.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.038879,
+                "conflicts": 10202,
+                "restarts": 45
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.04127,
+                "conflicts": 10202,
+                "restarts": 45
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-017.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-017.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.216672,
+                "conflicts": 55700,
+                "restarts": 173
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.279936,
+                "conflicts": 65348,
+                "restarts": 198
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-018.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-018.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.43994,
+                "conflicts": 109136,
+                "restarts": 286
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.857982,
+                "conflicts": 188261,
+                "restarts": 509
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-019.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-019.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.060843,
+                "conflicts": 16203,
+                "restarts": 63
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.096172,
+                "conflicts": 23545,
+                "restarts": 85
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-02.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-02.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 2.22714,
+                "conflicts": 500678,
+                "restarts": 1023
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.389535,
+                "conflicts": 89003,
+                "restarts": 254
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-020.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-020.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.720147,
+                "conflicts": 174106,
+                "restarts": 476
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.414981,
+                "conflicts": 95069,
+                "restarts": 255
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-021.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-021.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002214,
+                "conflicts": 394,
+                "restarts": 3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002374,
+                "conflicts": 394,
+                "restarts": 3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-022.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-022.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.392343,
+                "conflicts": 96975,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.582262,
+                "conflicts": 131337,
+                "restarts": 359
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-023.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-023.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.5184,
+                "conflicts": 125936,
+                "restarts": 340
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.226696,
+                "conflicts": 52880,
+                "restarts": 158
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-024.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-024.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.884461,
+                "conflicts": 209271,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.828299,
+                "conflicts": 179237,
+                "restarts": 500
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-025.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-025.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.529543,
+                "conflicts": 128853,
+                "restarts": 349
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.092716,
+                "conflicts": 22637,
+                "restarts": 80
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-026.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-026.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 2.05518,
+                "conflicts": 466844,
+                "restarts": 1023
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.00764,
+                "conflicts": 217001,
+                "restarts": 511
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-027.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-027.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.295811,
+                "conflicts": 73357,
+                "restarts": 228
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.159721,
+                "conflicts": 38046,
+                "restarts": 126
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-028.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-028.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.921225,
+                "conflicts": 218000,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.136144,
+                "conflicts": 32477,
+                "restarts": 122
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-029.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-029.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.43668,
+                "conflicts": 331090,
+                "restarts": 766
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 2.07581,
+                "conflicts": 420835,
+                "restarts": 1020
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-03.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-03.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.161744,
+                "conflicts": 40765,
+                "restarts": 127
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.78251,
+                "conflicts": 172217,
+                "restarts": 474
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-030.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-030.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.011116,
+                "conflicts": 2732,
+                "restarts": 15
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011422,
+                "conflicts": 2732,
+                "restarts": 15
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-031.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-031.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.021667,
+                "conflicts": 5752,
+                "restarts": 30
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.022884,
+                "conflicts": 5752,
+                "restarts": 30
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-032.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-032.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.31492,
+                "conflicts": 304324,
+                "restarts": 741
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.112893,
+                "conflicts": 26560,
+                "restarts": 94
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-033.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-033.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.23342,
+                "conflicts": 56861,
+                "restarts": 179
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.077465,
+                "conflicts": 18841,
+                "restarts": 63
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-034.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-034.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.34244,
+                "conflicts": 302946,
+                "restarts": 732
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.720583,
+                "conflicts": 161363,
+                "restarts": 443
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-035.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-035.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.049594,
+                "conflicts": 13224,
+                "restarts": 59
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.056716,
+                "conflicts": 14066,
+                "restarts": 61
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-036.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-036.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 2.19294,
+                "conflicts": 487974,
+                "restarts": 1023
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.530523,
+                "conflicts": 121035,
+                "restarts": 318
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-037.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-037.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006627,
+                "conflicts": 1608,
+                "restarts": 10
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006811,
+                "conflicts": 1608,
+                "restarts": 10
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-038.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-038.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.938522,
+                "conflicts": 220236,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.324021,
+                "conflicts": 72056,
+                "restarts": 221
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-039.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-039.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.22582,
+                "conflicts": 56313,
+                "restarts": 175
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.076904,
+                "conflicts": 18640,
+                "restarts": 63
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-04.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-04.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010554,
+                "conflicts": 2717,
+                "restarts": 15
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.010802,
+                "conflicts": 2717,
+                "restarts": 15
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-040.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-040.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.356458,
+                "conflicts": 89245,
+                "restarts": 254
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.238476,
+                "conflicts": 55720,
+                "restarts": 173
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-041.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-041.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.423571,
+                "conflicts": 102601,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.501175,
+                "conflicts": 114510,
+                "restarts": 307
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-042.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-042.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.217751,
+                "conflicts": 55186,
+                "restarts": 172
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.200298,
+                "conflicts": 46870,
+                "restarts": 140
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-043.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-043.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.886247,
+                "conflicts": 211093,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.273307,
+                "conflicts": 61969,
+                "restarts": 190
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-044.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-044.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.129685,
+                "conflicts": 31481,
+                "restarts": 116
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.086431,
+                "conflicts": 20180,
+                "restarts": 70
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-045.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-045.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.369427,
+                "conflicts": 92060,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.131967,
+                "conflicts": 32581,
+                "restarts": 123
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-046.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-046.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.298858,
+                "conflicts": 72102,
+                "restarts": 221
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.189057,
+                "conflicts": 42730,
+                "restarts": 127
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-047.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-047.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.221951,
+                "conflicts": 55896,
+                "restarts": 173
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.286817,
+                "conflicts": 66114,
+                "restarts": 203
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-048.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-048.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.425171,
+                "conflicts": 100471,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.191152,
+                "conflicts": 44014,
+                "restarts": 127
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-049.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-049.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.069582,
+                "conflicts": 17863,
+                "restarts": 63
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.089909,
+                "conflicts": 22035,
+                "restarts": 78
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-05.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-05.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.92268,
+                "conflicts": 421039,
+                "restarts": 1020
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.350735,
+                "conflicts": 80227,
+                "restarts": 253
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-050.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-050.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.174149,
+                "conflicts": 43343,
+                "restarts": 127
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.217511,
+                "conflicts": 50462,
+                "restarts": 156
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-051.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-051.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.068485,
+                "conflicts": 18157,
+                "restarts": 63
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.272249,
+                "conflicts": 63489,
+                "restarts": 190
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-052.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-052.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.475521,
+                "conflicts": 116828,
+                "restarts": 316
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.48743,
+                "conflicts": 106688,
+                "restarts": 277
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-053.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-053.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.974854,
+                "conflicts": 228958,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.448094,
+                "conflicts": 96210,
+                "restarts": 255
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-054.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-054.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.934601,
+                "conflicts": 211882,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.27059,
+                "conflicts": 278429,
+                "restarts": 653
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-055.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-055.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.139231,
+                "conflicts": 36101,
+                "restarts": 126
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.12707,
+                "conflicts": 29690,
+                "restarts": 109
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-056.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-056.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.054941,
+                "conflicts": 14221,
+                "restarts": 61
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.057339,
+                "conflicts": 14231,
+                "restarts": 61
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-057.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-057.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.058499,
+                "conflicts": 15060,
+                "restarts": 62
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.060032,
+                "conflicts": 15060,
+                "restarts": 62
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-058.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-058.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.39602,
+                "conflicts": 97107,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.9304,
+                "conflicts": 199831,
+                "restarts": 510
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-059.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-059.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.022496,
+                "conflicts": 5951,
+                "restarts": 30
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.023877,
+                "conflicts": 5951,
+                "restarts": 30
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-06.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-06.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.105587,
+                "conflicts": 27082,
+                "restarts": 94
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.091768,
+                "conflicts": 22563,
+                "restarts": 80
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-060.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-060.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.951994,
+                "conflicts": 215721,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.372068,
+                "conflicts": 85310,
+                "restarts": 254
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-061.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-061.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.429311,
+                "conflicts": 101343,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.251433,
+                "conflicts": 58423,
+                "restarts": 187
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-062.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-062.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.615076,
+                "conflicts": 143262,
+                "restarts": 382
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.571243,
+                "conflicts": 122483,
+                "restarts": 324
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-063.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-063.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.267124,
+                "conflicts": 64007,
+                "restarts": 190
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.170041,
+                "conflicts": 39095,
+                "restarts": 127
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-064.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-064.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.053182,
+                "conflicts": 13446,
+                "restarts": 60
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.064163,
+                "conflicts": 15514,
+                "restarts": 62
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-065.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-065.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.348377,
+                "conflicts": 86640,
+                "restarts": 254
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.13806,
+                "conflicts": 243887,
+                "restarts": 570
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-066.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-066.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.192014,
+                "conflicts": 48024,
+                "restarts": 142
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.145009,
+                "conflicts": 34626,
+                "restarts": 125
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-067.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-067.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.398325,
+                "conflicts": 99546,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.086026,
+                "conflicts": 21517,
+                "restarts": 77
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-068.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-068.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004047,
+                "conflicts": 949,
+                "restarts": 7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004364,
+                "conflicts": 949,
+                "restarts": 7
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-069.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-069.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.699715,
+                "conflicts": 166830,
+                "restarts": 446
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.11242,
+                "conflicts": 26743,
+                "restarts": 94
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-07.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-07.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 2.15746,
+                "conflicts": 483810,
+                "restarts": 1023
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 1.79728,
+                "conflicts": 375144,
+                "restarts": 893
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-070.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-070.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.14913,
+                "conflicts": 36519,
+                "restarts": 126
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.304001,
+                "conflicts": 70409,
+                "restarts": 220
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-071.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-071.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.03275,
+                "conflicts": 230278,
+                "restarts": 511
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.42493,
+                "conflicts": 95658,
+                "restarts": 255
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-072.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-072.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.0641,
+                "conflicts": 236736,
+                "restarts": 541
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.554886,
+                "conflicts": 119967,
+                "restarts": 318
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-073.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-073.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.113429,
+                "conflicts": 28595,
+                "restarts": 102
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.150858,
+                "conflicts": 36395,
+                "restarts": 126
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-074.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-074.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.214449,
+                "conflicts": 54162,
+                "restarts": 166
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008654,
+                "conflicts": 1995,
+                "restarts": 13
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-075.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-075.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.139412,
+                "conflicts": 34111,
+                "restarts": 125
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.110755,
+                "conflicts": 26982,
+                "restarts": 94
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-076.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-076.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.452035,
+                "conflicts": 111050,
+                "restarts": 290
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.387057,
+                "conflicts": 89546,
+                "restarts": 254
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-077.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-077.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.03533,
+                "conflicts": 9553,
+                "restarts": 41
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.037539,
+                "conflicts": 9553,
+                "restarts": 41
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-078.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-078.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.380077,
+                "conflicts": 92423,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.130003,
+                "conflicts": 30289,
+                "restarts": 109
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-079.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-079.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.268125,
+                "conflicts": 66130,
+                "restarts": 203
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.672369,
+                "conflicts": 139436,
+                "restarts": 381
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-08.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-08.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.128698,
+                "conflicts": 31443,
+                "restarts": 116
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.308636,
+                "conflicts": 67305,
+                "restarts": 205
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-080.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-080.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.240595,
+                "conflicts": 60686,
+                "restarts": 189
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.512066,
+                "conflicts": 108620,
+                "restarts": 285
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-081.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-081.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.14994,
+                "conflicts": 36314,
+                "restarts": 126
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.063528,
+                "conflicts": 15318,
+                "restarts": 62
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-082.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-082.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.495846,
+                "conflicts": 115113,
+                "restarts": 309
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.432629,
+                "conflicts": 93989,
+                "restarts": 255
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-083.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-083.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001282,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001358,
+                "conflicts": 104,
+                "restarts": 2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-084.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-084.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.015875,
+                "conflicts": 4234,
+                "restarts": 22
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.156035,
+                "conflicts": 36690,
+                "restarts": 126
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-085.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-085.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.021381,
+                "conflicts": 5540,
+                "restarts": 29
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.023149,
+                "conflicts": 5540,
+                "restarts": 29
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-086.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-086.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.805396,
+                "conflicts": 192528,
+                "restarts": 510
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.526267,
+                "conflicts": 118019,
+                "restarts": 317
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-087.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-087.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.507038,
+                "conflicts": 123341,
+                "restarts": 328
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.860605,
+                "conflicts": 187875,
+                "restarts": 509
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-088.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-088.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.035185,
+                "conflicts": 9013,
+                "restarts": 38
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.037269,
+                "conflicts": 9013,
+                "restarts": 38
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-089.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-089.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.339432,
+                "conflicts": 78809,
+                "restarts": 252
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.126383,
+                "conflicts": 30300,
+                "restarts": 109
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-09.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-09.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.044825,
+                "conflicts": 11474,
+                "restarts": 49
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.046241,
+                "conflicts": 11474,
+                "restarts": 49
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-090.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-090.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.503949,
+                "conflicts": 116601,
+                "restarts": 316
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.355311,
+                "conflicts": 83197,
+                "restarts": 253
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-091.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-091.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.016346,
+                "conflicts": 4283,
+                "restarts": 22
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006789,
+                "conflicts": 1550,
+                "restarts": 10
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-092.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-092.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.58902,
+                "conflicts": 137072,
+                "restarts": 380
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.367239,
+                "conflicts": 81650,
+                "restarts": 253
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-093.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-093.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.131516,
+                "conflicts": 33074,
+                "restarts": 124
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.4306,
+                "conflicts": 93021,
+                "restarts": 255
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-094.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-094.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.41768,
+                "conflicts": 96163,
+                "restarts": 255
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.130043,
+                "conflicts": 30604,
+                "restarts": 111
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-095.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-095.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.110432,
+                "conflicts": 28242,
+                "restarts": 101
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.070331,
+                "conflicts": 17563,
+                "restarts": 63
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-096.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-096.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.217844,
+                "conflicts": 52748,
+                "restarts": 158
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.456453,
+                "conflicts": 97932,
+                "restarts": 255
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "uf250-097.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-097.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.14106,
+                "conflicts": 35161,
+                "restarts": 125
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.135965,
+                "conflicts": 33853,
+                "restarts": 125
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-098.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-098.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 1.27539,
+                "conflicts": 290117,
+                "restarts": 700
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.141573,
+                "conflicts": 34476,
+                "restarts": 125
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "uf250-099.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/satlib_uf250/uf250-099.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.834751,
+                "conflicts": 191556,
+                "restarts": 509
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.167427,
+                "conflicts": 40132,
+                "restarts": 127
+            },
+            "winner": "RL"
+        }
+    ]
+}

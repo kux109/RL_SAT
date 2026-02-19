@@ -1,0 +1,63 @@
+=== RL-SAT Ablation Study Log ===
+
+
+--- Benchmarking: anomaly.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0013s (1 confl)
+  [RL_Full_Context] SAT in 0.0012s (1 confl)
+  [RL_No_Glue] SAT in 0.0012s (1 confl)
+  [RL_No_LBD] SAT in 0.0012s (1 confl)
+  [RL_Context_Blind] SAT in 0.0011s (1 confl)
+
+--- Benchmarking: bw_large.a.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0018s (18 confl)
+  [RL_Full_Context] SAT in 0.0018s (18 confl)
+  [RL_No_Glue] SAT in 0.0023s (18 confl)
+  [RL_No_LBD] SAT in 0.0021s (18 confl)
+  [RL_Context_Blind] SAT in 0.0018s (18 confl)
+
+--- Benchmarking: bw_large.b.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0034s (55 confl)
+  [RL_Full_Context] SAT in 0.0033s (55 confl)
+  [RL_No_Glue] SAT in 0.0033s (55 confl)
+  [RL_No_LBD] SAT in 0.0034s (55 confl)
+  [RL_Context_Blind] SAT in 0.0035s (55 confl)
+
+--- Benchmarking: bw_large.c.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0285s (1028 confl)
+  [RL_Full_Context] SAT in 0.0306s (1028 confl)
+  [RL_No_Glue] SAT in 0.0312s (845 confl)
+  [RL_No_LBD] SAT in 0.0317s (1028 confl)
+  [RL_Context_Blind] SAT in 0.0282s (1028 confl)
+
+--- Benchmarking: bw_large.d.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0582s (1581 confl)
+  [RL_Full_Context] SAT in 0.0581s (1581 confl)
+  [RL_No_Glue] SAT in 0.1100s (3164 confl)
+  [RL_No_LBD] SAT in 0.0598s (1581 confl)
+  [RL_Context_Blind] SAT in 0.0589s (1581 confl)
+
+--- Benchmarking: huge.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0021s (21 confl)
+  [RL_Full_Context] SAT in 0.0020s (21 confl)
+  [RL_No_Glue] SAT in 0.0020s (21 confl)
+  [RL_No_LBD] SAT in 0.0021s (21 confl)
+  [RL_Context_Blind] SAT in 0.0020s (21 confl)
+
+--- Benchmarking: medium.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0013s (5 confl)
+  [RL_Full_Context] SAT in 0.0013s (5 confl)
+  [RL_No_Glue] SAT in 0.0014s (5 confl)
+  [RL_No_LBD] SAT in 0.0013s (5 confl)
+  [RL_Context_Blind] SAT in 0.0012s (5 confl)
+
+
+=== ABLATION RESULTS SUMMARY ===
+Configuration             | Solved   | Avg Time   | Avg Confl 
+-----------------------------------------------------------------
+Baseline (MiniSat)        | 7        | 0.0138     | 387.0     
+RL_Full_Context           | 7        | 0.0141     | 387.0     
+RL_No_Glue                | 7        | 0.0216     | 587.0     
+RL_No_LBD                 | 7        | 0.0145     | 387.0     
+RL_Context_Blind          | 7        | 0.0138     | 387.0     
+
+Full results saved to ablation_results.json

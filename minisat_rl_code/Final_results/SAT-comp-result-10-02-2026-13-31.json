@@ -1,0 +1,2115 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp",
+        "date": "2026-02-10",
+        "time": "10-02-2026-13-31"
+    },
+    "summary": {
+        "total": 100,
+        "baseline_wins": 45,
+        "rl_wins": 55,
+        "ties": 0
+    },
+    "results": [
+        {
+            "instance": "flat200-1.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-1.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002333,
+                "conflicts": 104,
+                "restarts": 2,
+                "avg_lbd": 6.44,
+                "glue_ratio": 7.69
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002151,
+                "conflicts": 104,
+                "restarts": 2,
+                "avg_lbd": 6.44,
+                "glue_ratio": 7.69
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-10.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-10.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005043,
+                "conflicts": 480,
+                "restarts": 4,
+                "avg_lbd": 7.09,
+                "glue_ratio": 7.08
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004804,
+                "conflicts": 480,
+                "restarts": 4,
+                "avg_lbd": 7.09,
+                "glue_ratio": 7.08
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-100.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-100.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008282,
+                "conflicts": 882,
+                "restarts": 7,
+                "avg_lbd": 6.48,
+                "glue_ratio": 7.71
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007987,
+                "conflicts": 882,
+                "restarts": 7,
+                "avg_lbd": 6.48,
+                "glue_ratio": 7.71
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-11.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-11.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004269,
+                "conflicts": 486,
+                "restarts": 4,
+                "avg_lbd": 5.36,
+                "glue_ratio": 14.61
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004189,
+                "conflicts": 486,
+                "restarts": 4,
+                "avg_lbd": 5.36,
+                "glue_ratio": 14.61
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-12.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-12.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006062,
+                "conflicts": 749,
+                "restarts": 6,
+                "avg_lbd": 6.71,
+                "glue_ratio": 8.54
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005906,
+                "conflicts": 749,
+                "restarts": 6,
+                "avg_lbd": 6.71,
+                "glue_ratio": 8.54
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-13.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-13.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006377,
+                "conflicts": 752,
+                "restarts": 6,
+                "avg_lbd": 7.7,
+                "glue_ratio": 8.24
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006308,
+                "conflicts": 752,
+                "restarts": 6,
+                "avg_lbd": 7.7,
+                "glue_ratio": 8.24
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-14.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-14.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003965,
+                "conflicts": 452,
+                "restarts": 4,
+                "avg_lbd": 8.15,
+                "glue_ratio": 7.74
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003809,
+                "conflicts": 452,
+                "restarts": 4,
+                "avg_lbd": 8.15,
+                "glue_ratio": 7.74
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-15.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-15.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002632,
+                "conflicts": 288,
+                "restarts": 3,
+                "avg_lbd": 8.08,
+                "glue_ratio": 7.99
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002666,
+                "conflicts": 288,
+                "restarts": 3,
+                "avg_lbd": 8.08,
+                "glue_ratio": 7.99
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-16.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-16.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003893,
+                "conflicts": 442,
+                "restarts": 4,
+                "avg_lbd": 9.05,
+                "glue_ratio": 7.92
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003663,
+                "conflicts": 442,
+                "restarts": 4,
+                "avg_lbd": 9.05,
+                "glue_ratio": 7.92
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-17.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-17.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.046264,
+                "conflicts": 4950,
+                "restarts": 27,
+                "avg_lbd": 9.36,
+                "glue_ratio": 4.02
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.04897,
+                "conflicts": 4950,
+                "restarts": 27,
+                "avg_lbd": 9.36,
+                "glue_ratio": 4.02
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-18.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-18.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007336,
+                "conflicts": 922,
+                "restarts": 7,
+                "avg_lbd": 5.61,
+                "glue_ratio": 9.0
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007236,
+                "conflicts": 922,
+                "restarts": 7,
+                "avg_lbd": 5.61,
+                "glue_ratio": 9.0
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-19.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-19.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005693,
+                "conflicts": 713,
+                "restarts": 6,
+                "avg_lbd": 6.13,
+                "glue_ratio": 8.84
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005572,
+                "conflicts": 713,
+                "restarts": 6,
+                "avg_lbd": 6.13,
+                "glue_ratio": 8.84
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-2.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-2.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004702,
+                "conflicts": 606,
+                "restarts": 6,
+                "avg_lbd": 6.8,
+                "glue_ratio": 8.09
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004947,
+                "conflicts": 606,
+                "restarts": 6,
+                "avg_lbd": 6.8,
+                "glue_ratio": 8.09
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-20.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-20.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004496,
+                "conflicts": 564,
+                "restarts": 5,
+                "avg_lbd": 5.82,
+                "glue_ratio": 12.41
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004433,
+                "conflicts": 564,
+                "restarts": 5,
+                "avg_lbd": 5.82,
+                "glue_ratio": 12.41
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-21.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-21.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002385,
+                "conflicts": 252,
+                "restarts": 3,
+                "avg_lbd": 5.9,
+                "glue_ratio": 12.3
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002389,
+                "conflicts": 252,
+                "restarts": 3,
+                "avg_lbd": 5.9,
+                "glue_ratio": 12.3
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-22.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-22.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003127,
+                "conflicts": 392,
+                "restarts": 3,
+                "avg_lbd": 7.13,
+                "glue_ratio": 9.18
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003344,
+                "conflicts": 392,
+                "restarts": 3,
+                "avg_lbd": 7.13,
+                "glue_ratio": 9.18
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-23.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-23.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002992,
+                "conflicts": 373,
+                "restarts": 3,
+                "avg_lbd": 5.91,
+                "glue_ratio": 10.72
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00317,
+                "conflicts": 373,
+                "restarts": 3,
+                "avg_lbd": 5.91,
+                "glue_ratio": 10.72
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-24.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-24.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003621,
+                "conflicts": 446,
+                "restarts": 4,
+                "avg_lbd": 5.06,
+                "glue_ratio": 17.94
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00381,
+                "conflicts": 446,
+                "restarts": 4,
+                "avg_lbd": 5.06,
+                "glue_ratio": 17.94
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-25.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-25.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002047,
+                "conflicts": 171,
+                "restarts": 2,
+                "avg_lbd": 6.43,
+                "glue_ratio": 12.28
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002144,
+                "conflicts": 171,
+                "restarts": 2,
+                "avg_lbd": 6.43,
+                "glue_ratio": 12.28
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-26.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-26.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008038,
+                "conflicts": 855,
+                "restarts": 7,
+                "avg_lbd": 7.99,
+                "glue_ratio": 8.42
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007937,
+                "conflicts": 855,
+                "restarts": 7,
+                "avg_lbd": 7.99,
+                "glue_ratio": 8.42
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-27.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-27.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.018199,
+                "conflicts": 1515,
+                "restarts": 10,
+                "avg_lbd": 8.07,
+                "glue_ratio": 8.58
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.014948,
+                "conflicts": 1515,
+                "restarts": 10,
+                "avg_lbd": 8.07,
+                "glue_ratio": 8.58
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-28.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-28.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002579,
+                "conflicts": 276,
+                "restarts": 3,
+                "avg_lbd": 6.0,
+                "glue_ratio": 12.68
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002695,
+                "conflicts": 276,
+                "restarts": 3,
+                "avg_lbd": 6.0,
+                "glue_ratio": 12.68
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-29.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-29.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004591,
+                "conflicts": 544,
+                "restarts": 5,
+                "avg_lbd": 7.83,
+                "glue_ratio": 6.62
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004479,
+                "conflicts": 544,
+                "restarts": 5,
+                "avg_lbd": 7.83,
+                "glue_ratio": 6.62
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-3.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-3.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009296,
+                "conflicts": 1072,
+                "restarts": 7,
+                "avg_lbd": 6.91,
+                "glue_ratio": 7.18
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009408,
+                "conflicts": 1072,
+                "restarts": 7,
+                "avg_lbd": 6.91,
+                "glue_ratio": 7.18
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-30.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-30.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008174,
+                "conflicts": 981,
+                "restarts": 7,
+                "avg_lbd": 7.1,
+                "glue_ratio": 9.17
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.008382,
+                "conflicts": 981,
+                "restarts": 7,
+                "avg_lbd": 7.1,
+                "glue_ratio": 9.17
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-31.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-31.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007674,
+                "conflicts": 911,
+                "restarts": 7,
+                "avg_lbd": 8.38,
+                "glue_ratio": 5.6
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007751,
+                "conflicts": 911,
+                "restarts": 7,
+                "avg_lbd": 8.38,
+                "glue_ratio": 5.6
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-32.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-32.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001679,
+                "conflicts": 151,
+                "restarts": 2,
+                "avg_lbd": 4.99,
+                "glue_ratio": 12.58
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001696,
+                "conflicts": 151,
+                "restarts": 2,
+                "avg_lbd": 4.99,
+                "glue_ratio": 12.58
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-33.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-33.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002197,
+                "conflicts": 208,
+                "restarts": 3,
+                "avg_lbd": 6.79,
+                "glue_ratio": 7.21
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002129,
+                "conflicts": 208,
+                "restarts": 3,
+                "avg_lbd": 6.79,
+                "glue_ratio": 7.21
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-34.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-34.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005223,
+                "conflicts": 628,
+                "restarts": 6,
+                "avg_lbd": 6.77,
+                "glue_ratio": 8.92
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005579,
+                "conflicts": 628,
+                "restarts": 6,
+                "avg_lbd": 6.77,
+                "glue_ratio": 8.92
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-35.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-35.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001794,
+                "conflicts": 145,
+                "restarts": 2,
+                "avg_lbd": 5.94,
+                "glue_ratio": 13.79
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00172,
+                "conflicts": 145,
+                "restarts": 2,
+                "avg_lbd": 5.94,
+                "glue_ratio": 13.79
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-36.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-36.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004832,
+                "conflicts": 602,
+                "restarts": 5,
+                "avg_lbd": 8.56,
+                "glue_ratio": 6.81
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005034,
+                "conflicts": 602,
+                "restarts": 5,
+                "avg_lbd": 8.56,
+                "glue_ratio": 6.81
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-37.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-37.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00338,
+                "conflicts": 435,
+                "restarts": 4,
+                "avg_lbd": 6.15,
+                "glue_ratio": 11.26
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003402,
+                "conflicts": 435,
+                "restarts": 4,
+                "avg_lbd": 6.15,
+                "glue_ratio": 11.26
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-38.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-38.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002366,
+                "conflicts": 256,
+                "restarts": 3,
+                "avg_lbd": 5.7,
+                "glue_ratio": 17.97
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002437,
+                "conflicts": 256,
+                "restarts": 3,
+                "avg_lbd": 5.7,
+                "glue_ratio": 17.97
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-39.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-39.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.043029,
+                "conflicts": 4640,
+                "restarts": 25,
+                "avg_lbd": 8.14,
+                "glue_ratio": 4.48
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.042618,
+                "conflicts": 4640,
+                "restarts": 25,
+                "avg_lbd": 8.14,
+                "glue_ratio": 4.48
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-4.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-4.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006193,
+                "conflicts": 754,
+                "restarts": 6,
+                "avg_lbd": 6.89,
+                "glue_ratio": 8.75
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006162,
+                "conflicts": 754,
+                "restarts": 6,
+                "avg_lbd": 6.89,
+                "glue_ratio": 8.75
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-40.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-40.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001502,
+                "conflicts": 108,
+                "restarts": 2,
+                "avg_lbd": 5.51,
+                "glue_ratio": 17.59
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00148,
+                "conflicts": 108,
+                "restarts": 2,
+                "avg_lbd": 5.51,
+                "glue_ratio": 17.59
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-41.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-41.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001316,
+                "conflicts": 98,
+                "restarts": 1,
+                "avg_lbd": 5.81,
+                "glue_ratio": 11.22
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001307,
+                "conflicts": 98,
+                "restarts": 1,
+                "avg_lbd": 5.81,
+                "glue_ratio": 11.22
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-42.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-42.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001312,
+                "conflicts": 92,
+                "restarts": 1,
+                "avg_lbd": 4.98,
+                "glue_ratio": 17.39
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001307,
+                "conflicts": 92,
+                "restarts": 1,
+                "avg_lbd": 4.98,
+                "glue_ratio": 17.39
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-43.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-43.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002182,
+                "conflicts": 215,
+                "restarts": 3,
+                "avg_lbd": 6.26,
+                "glue_ratio": 11.63
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002144,
+                "conflicts": 215,
+                "restarts": 3,
+                "avg_lbd": 6.26,
+                "glue_ratio": 11.63
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-44.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-44.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005971,
+                "conflicts": 781,
+                "restarts": 6,
+                "avg_lbd": 7.25,
+                "glue_ratio": 8.58
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00611,
+                "conflicts": 781,
+                "restarts": 6,
+                "avg_lbd": 7.25,
+                "glue_ratio": 8.58
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-45.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-45.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004803,
+                "conflicts": 578,
+                "restarts": 5,
+                "avg_lbd": 8.94,
+                "glue_ratio": 5.88
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004919,
+                "conflicts": 578,
+                "restarts": 5,
+                "avg_lbd": 8.94,
+                "glue_ratio": 5.88
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-46.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-46.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007061,
+                "conflicts": 866,
+                "restarts": 7,
+                "avg_lbd": 6.78,
+                "glue_ratio": 7.04
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007175,
+                "conflicts": 866,
+                "restarts": 7,
+                "avg_lbd": 6.78,
+                "glue_ratio": 7.04
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-47.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-47.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.013151,
+                "conflicts": 1571,
+                "restarts": 10,
+                "avg_lbd": 6.82,
+                "glue_ratio": 5.86
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.013107,
+                "conflicts": 1571,
+                "restarts": 10,
+                "avg_lbd": 6.82,
+                "glue_ratio": 5.86
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-48.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-48.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007592,
+                "conflicts": 887,
+                "restarts": 7,
+                "avg_lbd": 7.26,
+                "glue_ratio": 6.54
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007583,
+                "conflicts": 887,
+                "restarts": 7,
+                "avg_lbd": 7.26,
+                "glue_ratio": 6.54
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-49.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-49.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001672,
+                "conflicts": 157,
+                "restarts": 2,
+                "avg_lbd": 6.61,
+                "glue_ratio": 13.38
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001613,
+                "conflicts": 157,
+                "restarts": 2,
+                "avg_lbd": 6.61,
+                "glue_ratio": 13.38
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-5.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-5.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.033171,
+                "conflicts": 3775,
+                "restarts": 20,
+                "avg_lbd": 7.29,
+                "glue_ratio": 6.75
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.033308,
+                "conflicts": 3775,
+                "restarts": 20,
+                "avg_lbd": 7.29,
+                "glue_ratio": 6.75
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-50.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-50.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005562,
+                "conflicts": 693,
+                "restarts": 6,
+                "avg_lbd": 7.18,
+                "glue_ratio": 11.54
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005351,
+                "conflicts": 693,
+                "restarts": 6,
+                "avg_lbd": 7.18,
+                "glue_ratio": 11.54
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-51.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-51.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001929,
+                "conflicts": 188,
+                "restarts": 2,
+                "avg_lbd": 6.77,
+                "glue_ratio": 9.57
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001903,
+                "conflicts": 188,
+                "restarts": 2,
+                "avg_lbd": 6.77,
+                "glue_ratio": 9.57
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-52.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-52.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010894,
+                "conflicts": 1245,
+                "restarts": 8,
+                "avg_lbd": 8.05,
+                "glue_ratio": 5.94
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.010907,
+                "conflicts": 1245,
+                "restarts": 8,
+                "avg_lbd": 8.05,
+                "glue_ratio": 5.94
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-53.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-53.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001463,
+                "conflicts": 105,
+                "restarts": 2,
+                "avg_lbd": 4.7,
+                "glue_ratio": 15.24
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001485,
+                "conflicts": 105,
+                "restarts": 2,
+                "avg_lbd": 4.7,
+                "glue_ratio": 15.24
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-54.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-54.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.012988,
+                "conflicts": 1621,
+                "restarts": 11,
+                "avg_lbd": 6.94,
+                "glue_ratio": 7.59
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.013153,
+                "conflicts": 1621,
+                "restarts": 11,
+                "avg_lbd": 6.94,
+                "glue_ratio": 7.59
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-55.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-55.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.034355,
+                "conflicts": 3598,
+                "restarts": 18,
+                "avg_lbd": 8.23,
+                "glue_ratio": 4.5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.034591,
+                "conflicts": 3598,
+                "restarts": 18,
+                "avg_lbd": 8.23,
+                "glue_ratio": 4.5
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-56.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-56.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005341,
+                "conflicts": 650,
+                "restarts": 6,
+                "avg_lbd": 8.11,
+                "glue_ratio": 8.92
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005336,
+                "conflicts": 650,
+                "restarts": 6,
+                "avg_lbd": 8.11,
+                "glue_ratio": 8.92
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-57.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-57.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005578,
+                "conflicts": 702,
+                "restarts": 6,
+                "avg_lbd": 5.25,
+                "glue_ratio": 13.25
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005552,
+                "conflicts": 702,
+                "restarts": 6,
+                "avg_lbd": 5.25,
+                "glue_ratio": 13.25
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-58.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-58.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001032,
+                "conflicts": 24,
+                "restarts": 1,
+                "avg_lbd": 6.58,
+                "glue_ratio": 12.5
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001027,
+                "conflicts": 24,
+                "restarts": 1,
+                "avg_lbd": 6.58,
+                "glue_ratio": 12.5
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-59.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-59.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004182,
+                "conflicts": 546,
+                "restarts": 5,
+                "avg_lbd": 6.69,
+                "glue_ratio": 9.89
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004254,
+                "conflicts": 546,
+                "restarts": 5,
+                "avg_lbd": 6.69,
+                "glue_ratio": 9.89
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-6.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-6.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002699,
+                "conflicts": 297,
+                "restarts": 3,
+                "avg_lbd": 7.32,
+                "glue_ratio": 7.74
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002605,
+                "conflicts": 297,
+                "restarts": 3,
+                "avg_lbd": 7.32,
+                "glue_ratio": 7.74
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-60.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-60.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001649,
+                "conflicts": 160,
+                "restarts": 2,
+                "avg_lbd": 5.34,
+                "glue_ratio": 16.25
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00175,
+                "conflicts": 160,
+                "restarts": 2,
+                "avg_lbd": 5.34,
+                "glue_ratio": 16.25
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-61.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-61.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.000937,
+                "conflicts": 26,
+                "restarts": 1,
+                "avg_lbd": 5.08,
+                "glue_ratio": 23.08
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001025,
+                "conflicts": 26,
+                "restarts": 1,
+                "avg_lbd": 5.08,
+                "glue_ratio": 23.08
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-62.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-62.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008854,
+                "conflicts": 1083,
+                "restarts": 7,
+                "avg_lbd": 7.14,
+                "glue_ratio": 7.2
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009209,
+                "conflicts": 1083,
+                "restarts": 7,
+                "avg_lbd": 7.14,
+                "glue_ratio": 7.2
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-63.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-63.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.008889,
+                "conflicts": 1031,
+                "restarts": 7,
+                "avg_lbd": 7.63,
+                "glue_ratio": 7.95
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.0088,
+                "conflicts": 1031,
+                "restarts": 7,
+                "avg_lbd": 7.63,
+                "glue_ratio": 7.95
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-64.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-64.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002214,
+                "conflicts": 246,
+                "restarts": 3,
+                "avg_lbd": 6.87,
+                "glue_ratio": 6.1
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002364,
+                "conflicts": 246,
+                "restarts": 3,
+                "avg_lbd": 6.87,
+                "glue_ratio": 6.1
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-65.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-65.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.018523,
+                "conflicts": 2048,
+                "restarts": 14,
+                "avg_lbd": 6.83,
+                "glue_ratio": 7.13
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.018792,
+                "conflicts": 2048,
+                "restarts": 14,
+                "avg_lbd": 6.83,
+                "glue_ratio": 7.13
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-66.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-66.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.018772,
+                "conflicts": 2189,
+                "restarts": 14,
+                "avg_lbd": 9.01,
+                "glue_ratio": 7.13
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.019058,
+                "conflicts": 2189,
+                "restarts": 14,
+                "avg_lbd": 9.01,
+                "glue_ratio": 7.13
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-67.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-67.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001718,
+                "conflicts": 138,
+                "restarts": 2,
+                "avg_lbd": 6.86,
+                "glue_ratio": 10.14
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001729,
+                "conflicts": 138,
+                "restarts": 2,
+                "avg_lbd": 6.86,
+                "glue_ratio": 10.14
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-68.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-68.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001562,
+                "conflicts": 133,
+                "restarts": 2,
+                "avg_lbd": 6.08,
+                "glue_ratio": 15.79
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001595,
+                "conflicts": 133,
+                "restarts": 2,
+                "avg_lbd": 6.08,
+                "glue_ratio": 15.79
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-69.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-69.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001985,
+                "conflicts": 172,
+                "restarts": 2,
+                "avg_lbd": 7.09,
+                "glue_ratio": 8.72
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001942,
+                "conflicts": 172,
+                "restarts": 2,
+                "avg_lbd": 7.09,
+                "glue_ratio": 8.72
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-7.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-7.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.01017,
+                "conflicts": 1145,
+                "restarts": 7,
+                "avg_lbd": 7.4,
+                "glue_ratio": 5.15
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.010113,
+                "conflicts": 1145,
+                "restarts": 7,
+                "avg_lbd": 7.4,
+                "glue_ratio": 5.15
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-70.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-70.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006091,
+                "conflicts": 729,
+                "restarts": 6,
+                "avg_lbd": 8.26,
+                "glue_ratio": 9.47
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005841,
+                "conflicts": 729,
+                "restarts": 6,
+                "avg_lbd": 8.26,
+                "glue_ratio": 9.47
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-71.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-71.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005376,
+                "conflicts": 599,
+                "restarts": 5,
+                "avg_lbd": 7.72,
+                "glue_ratio": 6.68
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005183,
+                "conflicts": 599,
+                "restarts": 5,
+                "avg_lbd": 7.72,
+                "glue_ratio": 6.68
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-72.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-72.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004539,
+                "conflicts": 552,
+                "restarts": 5,
+                "avg_lbd": 7.27,
+                "glue_ratio": 8.15
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00465,
+                "conflicts": 552,
+                "restarts": 5,
+                "avg_lbd": 7.27,
+                "glue_ratio": 8.15
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-73.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-73.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006589,
+                "conflicts": 816,
+                "restarts": 7,
+                "avg_lbd": 5.98,
+                "glue_ratio": 11.89
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006908,
+                "conflicts": 816,
+                "restarts": 7,
+                "avg_lbd": 5.98,
+                "glue_ratio": 11.89
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-74.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-74.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006862,
+                "conflicts": 808,
+                "restarts": 7,
+                "avg_lbd": 10.28,
+                "glue_ratio": 6.81
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006887,
+                "conflicts": 808,
+                "restarts": 7,
+                "avg_lbd": 10.28,
+                "glue_ratio": 6.81
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-75.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-75.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002817,
+                "conflicts": 334,
+                "restarts": 3,
+                "avg_lbd": 7.16,
+                "glue_ratio": 12.28
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002828,
+                "conflicts": 334,
+                "restarts": 3,
+                "avg_lbd": 7.16,
+                "glue_ratio": 12.28
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-76.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-76.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.005429,
+                "conflicts": 644,
+                "restarts": 6,
+                "avg_lbd": 7.52,
+                "glue_ratio": 8.23
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.005241,
+                "conflicts": 644,
+                "restarts": 6,
+                "avg_lbd": 7.52,
+                "glue_ratio": 8.23
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-77.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-77.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009759,
+                "conflicts": 1112,
+                "restarts": 7,
+                "avg_lbd": 6.92,
+                "glue_ratio": 8.36
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009642,
+                "conflicts": 1112,
+                "restarts": 7,
+                "avg_lbd": 6.92,
+                "glue_ratio": 8.36
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-78.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-78.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004542,
+                "conflicts": 547,
+                "restarts": 5,
+                "avg_lbd": 7.02,
+                "glue_ratio": 10.79
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004533,
+                "conflicts": 547,
+                "restarts": 5,
+                "avg_lbd": 7.02,
+                "glue_ratio": 10.79
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-79.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-79.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.01797,
+                "conflicts": 1924,
+                "restarts": 13,
+                "avg_lbd": 7.61,
+                "glue_ratio": 7.22
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.017904,
+                "conflicts": 1924,
+                "restarts": 13,
+                "avg_lbd": 7.61,
+                "glue_ratio": 7.22
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-8.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-8.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001463,
+                "conflicts": 101,
+                "restarts": 2,
+                "avg_lbd": 4.82,
+                "glue_ratio": 14.85
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00141,
+                "conflicts": 101,
+                "restarts": 2,
+                "avg_lbd": 4.82,
+                "glue_ratio": 14.85
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-80.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-80.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00304,
+                "conflicts": 363,
+                "restarts": 3,
+                "avg_lbd": 6.21,
+                "glue_ratio": 12.4
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003126,
+                "conflicts": 363,
+                "restarts": 3,
+                "avg_lbd": 6.21,
+                "glue_ratio": 12.4
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-81.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-81.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.012439,
+                "conflicts": 1430,
+                "restarts": 10,
+                "avg_lbd": 8.95,
+                "glue_ratio": 4.48
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.012417,
+                "conflicts": 1430,
+                "restarts": 10,
+                "avg_lbd": 8.95,
+                "glue_ratio": 4.48
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-82.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-82.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.00543,
+                "conflicts": 648,
+                "restarts": 6,
+                "avg_lbd": 7.44,
+                "glue_ratio": 10.03
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00536,
+                "conflicts": 648,
+                "restarts": 6,
+                "avg_lbd": 7.44,
+                "glue_ratio": 10.03
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-83.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-83.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.010986,
+                "conflicts": 1332,
+                "restarts": 9,
+                "avg_lbd": 7.44,
+                "glue_ratio": 10.74
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011128,
+                "conflicts": 1332,
+                "restarts": 9,
+                "avg_lbd": 7.44,
+                "glue_ratio": 10.74
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-84.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-84.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004805,
+                "conflicts": 573,
+                "restarts": 5,
+                "avg_lbd": 9.11,
+                "glue_ratio": 6.81
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004763,
+                "conflicts": 573,
+                "restarts": 5,
+                "avg_lbd": 9.11,
+                "glue_ratio": 6.81
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-85.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-85.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006294,
+                "conflicts": 766,
+                "restarts": 6,
+                "avg_lbd": 7.65,
+                "glue_ratio": 7.57
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006073,
+                "conflicts": 766,
+                "restarts": 6,
+                "avg_lbd": 7.65,
+                "glue_ratio": 7.57
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-86.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-86.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002416,
+                "conflicts": 257,
+                "restarts": 3,
+                "avg_lbd": 7.05,
+                "glue_ratio": 10.89
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002401,
+                "conflicts": 257,
+                "restarts": 3,
+                "avg_lbd": 7.05,
+                "glue_ratio": 10.89
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-87.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-87.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009931,
+                "conflicts": 1113,
+                "restarts": 7,
+                "avg_lbd": 8.17,
+                "glue_ratio": 7.91
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009717,
+                "conflicts": 1113,
+                "restarts": 7,
+                "avg_lbd": 8.17,
+                "glue_ratio": 7.91
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-88.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-88.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.007525,
+                "conflicts": 865,
+                "restarts": 7,
+                "avg_lbd": 6.46,
+                "glue_ratio": 8.21
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.007264,
+                "conflicts": 865,
+                "restarts": 7,
+                "avg_lbd": 6.46,
+                "glue_ratio": 8.21
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-89.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-89.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001797,
+                "conflicts": 161,
+                "restarts": 2,
+                "avg_lbd": 6.63,
+                "glue_ratio": 8.7
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001758,
+                "conflicts": 161,
+                "restarts": 2,
+                "avg_lbd": 6.63,
+                "glue_ratio": 8.7
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-9.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-9.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.01095,
+                "conflicts": 1298,
+                "restarts": 8,
+                "avg_lbd": 6.81,
+                "glue_ratio": 9.17
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.011131,
+                "conflicts": 1298,
+                "restarts": 8,
+                "avg_lbd": 6.81,
+                "glue_ratio": 9.17
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-90.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-90.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003973,
+                "conflicts": 488,
+                "restarts": 4,
+                "avg_lbd": 9.31,
+                "glue_ratio": 6.97
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.003896,
+                "conflicts": 488,
+                "restarts": 4,
+                "avg_lbd": 9.31,
+                "glue_ratio": 6.97
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-91.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-91.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001774,
+                "conflicts": 179,
+                "restarts": 2,
+                "avg_lbd": 6.61,
+                "glue_ratio": 12.85
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001827,
+                "conflicts": 179,
+                "restarts": 2,
+                "avg_lbd": 6.61,
+                "glue_ratio": 12.85
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-92.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-92.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002881,
+                "conflicts": 318,
+                "restarts": 3,
+                "avg_lbd": 5.22,
+                "glue_ratio": 13.84
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002734,
+                "conflicts": 318,
+                "restarts": 3,
+                "avg_lbd": 5.22,
+                "glue_ratio": 13.84
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-93.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-93.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003946,
+                "conflicts": 503,
+                "restarts": 5,
+                "avg_lbd": 5.97,
+                "glue_ratio": 10.34
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004138,
+                "conflicts": 503,
+                "restarts": 5,
+                "avg_lbd": 5.97,
+                "glue_ratio": 10.34
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-94.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-94.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.002564,
+                "conflicts": 284,
+                "restarts": 3,
+                "avg_lbd": 7.9,
+                "glue_ratio": 12.32
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.002559,
+                "conflicts": 284,
+                "restarts": 3,
+                "avg_lbd": 7.9,
+                "glue_ratio": 12.32
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-95.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-95.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.009129,
+                "conflicts": 1071,
+                "restarts": 7,
+                "avg_lbd": 7.34,
+                "glue_ratio": 6.44
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.009091,
+                "conflicts": 1071,
+                "restarts": 7,
+                "avg_lbd": 7.34,
+                "glue_ratio": 6.44
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-96.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-96.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.003235,
+                "conflicts": 364,
+                "restarts": 3,
+                "avg_lbd": 8.07,
+                "glue_ratio": 7.69
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.00314,
+                "conflicts": 364,
+                "restarts": 3,
+                "avg_lbd": 8.07,
+                "glue_ratio": 7.69
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-97.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-97.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.001055,
+                "conflicts": 55,
+                "restarts": 1,
+                "avg_lbd": 5.6,
+                "glue_ratio": 21.82
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.001105,
+                "conflicts": 55,
+                "restarts": 1,
+                "avg_lbd": 5.6,
+                "glue_ratio": 21.82
+            },
+            "winner": "BASELINE"
+        },
+        {
+            "instance": "flat200-98.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-98.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.004233,
+                "conflicts": 506,
+                "restarts": 5,
+                "avg_lbd": 6.18,
+                "glue_ratio": 12.06
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.004151,
+                "conflicts": 506,
+                "restarts": 5,
+                "avg_lbd": 6.18,
+                "glue_ratio": 12.06
+            },
+            "winner": "RL"
+        },
+        {
+            "instance": "flat200-99.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/sat-comp/flat200-99.cnf",
+            "baseline": {
+                "status": "SAT",
+                "time": 0.006551,
+                "conflicts": 814,
+                "restarts": 7,
+                "avg_lbd": 6.53,
+                "glue_ratio": 7.74
+            },
+            "rl": {
+                "status": "SAT",
+                "time": 0.006769,
+                "conflicts": 814,
+                "restarts": 7,
+                "avg_lbd": 6.53,
+                "glue_ratio": 7.74
+            },
+            "winner": "BASELINE"
+        }
+    ]
+}

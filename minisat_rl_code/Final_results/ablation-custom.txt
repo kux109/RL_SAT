@@ -1,0 +1,224 @@
+=== RL-SAT Ablation Study Log ===
+
+
+--- Benchmarking: rnd_3sat_n300_0.cnf ---
+  [Baseline (MiniSat)] SAT in 1.8200s (229218 confl)
+  [RL_Full_Context] SAT in 10.8945s (1190680 confl)
+  [RL_No_Glue] SAT in 7.1325s (820907 confl)
+  [RL_No_LBD] SAT in 1.0122s (129155 confl)
+  [RL_Context_Blind] SAT in 35.6681s (3671430 confl)
+
+--- Benchmarking: rnd_3sat_n300_1.cnf ---
+  [Baseline (MiniSat)] SAT in 1.8824s (239989 confl)
+  [RL_Full_Context] SAT in 1.7894s (222091 confl)
+  [RL_No_Glue] SAT in 6.0015s (715572 confl)
+  [RL_No_LBD] SAT in 4.6326s (542674 confl)
+  [RL_Context_Blind] SAT in 0.3082s (42624 confl)
+
+--- Benchmarking: rnd_3sat_n300_10.cnf ---
+  [Baseline (MiniSat)] UNSAT in 21.8773s (2401504 confl)
+  [RL_Full_Context] UNSAT in 26.9451s (2811949 confl)
+  [RL_No_Glue] UNSAT in 33.8693s (3501589 confl)
+  [RL_No_LBD] UNSAT in 23.1894s (2470106 confl)
+  [RL_Context_Blind] UNSAT in 36.3731s (3830818 confl)
+
+--- Benchmarking: rnd_3sat_n300_11.cnf ---
+  [Baseline (MiniSat)] UNSAT in 47.0101s (4881273 confl)
+  [RL_Full_Context] TIMEOUT
+  [RL_No_Glue] TIMEOUT
+  [RL_No_LBD] TIMEOUT
+  [RL_Context_Blind] UNSAT in 49.3981s (5067200 confl)
+
+--- Benchmarking: rnd_3sat_n300_12.cnf ---
+  [Baseline (MiniSat)] UNSAT in 50.6883s (5220076 confl)
+  [RL_Full_Context] TIMEOUT
+  [RL_No_Glue] UNSAT in 49.3497s (5067369 confl)
+  [RL_No_LBD] TIMEOUT
+  [RL_Context_Blind] UNSAT in 52.5755s (5308719 confl)
+
+--- Benchmarking: rnd_3sat_n300_13.cnf ---
+  [Baseline (MiniSat)] UNSAT in 50.8552s (5206282 confl)
+  [RL_Full_Context] UNSAT in 53.4286s (5305452 confl)
+  [RL_No_Glue] UNSAT in 53.7298s (5332832 confl)
+  [RL_No_LBD] UNSAT in 52.0106s (5188844 confl)
+  [RL_Context_Blind] TIMEOUT
+
+--- Benchmarking: rnd_3sat_n300_14.cnf ---
+  [Baseline (MiniSat)] SAT in 19.6665s (2184850 confl)
+  [RL_Full_Context] SAT in 3.4998s (418563 confl)
+  [RL_No_Glue] SAT in 0.2746s (37970 confl)
+  [RL_No_LBD] SAT in 4.1120s (485086 confl)
+  [RL_Context_Blind] SAT in 1.6373s (204866 confl)
+
+--- Benchmarking: rnd_3sat_n300_15.cnf ---
+  [Baseline (MiniSat)] UNSAT in 39.1168s (4150522 confl)
+  [RL_Full_Context] UNSAT in 49.6556s (5011266 confl)
+  [RL_No_Glue] UNSAT in 55.4041s (5517604 confl)
+  [RL_No_LBD] UNSAT in 45.9383s (4659992 confl)
+  [RL_Context_Blind] UNSAT in 49.2795s (5090852 confl)
+
+--- Benchmarking: rnd_3sat_n300_16.cnf ---
+  [Baseline (MiniSat)] SAT in 0.6528s (85056 confl)
+  [RL_Full_Context] SAT in 0.7050s (91832 confl)
+  [RL_No_Glue] SAT in 1.2901s (161351 confl)
+  [RL_No_LBD] SAT in 0.6376s (83262 confl)
+  [RL_Context_Blind] SAT in 0.0532s (7625 confl)
+
+--- Benchmarking: rnd_3sat_n300_17.cnf ---
+  [Baseline (MiniSat)] UNSAT in 21.2928s (2395174 confl)
+  [RL_Full_Context] UNSAT in 21.3306s (2335508 confl)
+  [RL_No_Glue] UNSAT in 20.3505s (2277818 confl)
+  [RL_No_LBD] UNSAT in 20.9835s (2298931 confl)
+  [RL_Context_Blind] UNSAT in 20.7234s (2297475 confl)
+
+--- Benchmarking: rnd_3sat_n300_18.cnf ---
+  [Baseline (MiniSat)] SAT in 2.3652s (297002 confl)
+  [RL_Full_Context] SAT in 0.6002s (80370 confl)
+  [RL_No_Glue] SAT in 2.1913s (273852 confl)
+  [RL_No_LBD] SAT in 1.1161s (142171 confl)
+  [RL_Context_Blind] SAT in 0.8669s (112693 confl)
+
+--- Benchmarking: rnd_3sat_n300_19.cnf ---
+  [Baseline (MiniSat)] UNSAT in 30.8324s (3265138 confl)
+  [RL_Full_Context] UNSAT in 50.8588s (5038534 confl)
+  [RL_No_Glue] UNSAT in 49.5914s (4992813 confl)
+  [RL_No_LBD] UNSAT in 52.9710s (5262337 confl)
+  [RL_Context_Blind] UNSAT in 36.5971s (3835025 confl)
+
+--- Benchmarking: rnd_3sat_n300_2.cnf ---
+  [Baseline (MiniSat)] UNSAT in 35.0951s (4327873 confl)
+  [RL_Full_Context] UNSAT in 36.8925s (5402061 confl)
+  [RL_No_Glue] UNSAT in 37.0069s (5114421 confl)
+  [RL_No_LBD] UNSAT in 40.3933s (5296104 confl)
+  [RL_Context_Blind] UNSAT in 38.0363s (5327158 confl)
+
+--- Benchmarking: rnd_3sat_n300_20.cnf ---
+  [Baseline (MiniSat)] SAT in 1.5329s (267009 confl)
+  [RL_Full_Context] SAT in 3.3047s (531154 confl)
+  [RL_No_Glue] SAT in 2.7712s (465833 confl)
+  [RL_No_LBD] SAT in 1.3404s (227904 confl)
+  [RL_Context_Blind] SAT in 2.3329s (387036 confl)
+
+--- Benchmarking: rnd_3sat_n300_21.cnf ---
+  [Baseline (MiniSat)] UNSAT in 34.0701s (4856648 confl)
+  [RL_Full_Context] UNSAT in 36.8044s (5084569 confl)
+  [RL_No_Glue] UNSAT in 17.7769s (2562444 confl)
+  [RL_No_LBD] UNSAT in 34.9667s (4992258 confl)
+  [RL_Context_Blind] UNSAT in 33.3170s (4884303 confl)
+
+--- Benchmarking: rnd_3sat_n300_22.cnf ---
+  [Baseline (MiniSat)] SAT in 14.3652s (2277265 confl)
+  [RL_Full_Context] SAT in 9.1684s (1443660 confl)
+  [RL_No_Glue] SAT in 8.0931s (1311630 confl)
+  [RL_No_LBD] SAT in 5.1560s (837772 confl)
+  [RL_Context_Blind] SAT in 1.3414s (239107 confl)
+
+--- Benchmarking: rnd_3sat_n300_23.cnf ---
+  [Baseline (MiniSat)] SAT in 1.2617s (229690 confl)
+  [RL_Full_Context] SAT in 1.2765s (228758 confl)
+  [RL_No_Glue] SAT in 4.4282s (742366 confl)
+  [RL_No_LBD] SAT in 1.1261s (197822 confl)
+  [RL_Context_Blind] SAT in 0.3511s (66305 confl)
+
+--- Benchmarking: rnd_3sat_n300_24.cnf ---
+  [Baseline (MiniSat)] UNSAT in 14.4883s (2186378 confl)
+  [RL_Full_Context] UNSAT in 14.7044s (2181901 confl)
+  [RL_No_Glue] UNSAT in 14.1201s (1954508 confl)
+  [RL_No_LBD] UNSAT in 15.2182s (2212881 confl)
+  [RL_Context_Blind] UNSAT in 9.8414s (1573913 confl)
+
+--- Benchmarking: rnd_3sat_n300_25.cnf ---
+  [Baseline (MiniSat)] SAT in 1.1911s (214012 confl)
+  [RL_Full_Context] SAT in 0.5383s (100039 confl)
+  [RL_No_Glue] SAT in 0.3364s (63370 confl)
+  [RL_No_LBD] SAT in 0.9435s (169778 confl)
+  [RL_Context_Blind] SAT in 2.1947s (375344 confl)
+
+--- Benchmarking: rnd_3sat_n300_26.cnf ---
+  [Baseline (MiniSat)] SAT in 2.7557s (475754 confl)
+  [RL_Full_Context] SAT in 3.7065s (621906 confl)
+  [RL_No_Glue] SAT in 3.1020s (519889 confl)
+  [RL_No_LBD] SAT in 1.2249s (220435 confl)
+  [RL_Context_Blind] SAT in 26.1470s (3939962 confl)
+
+--- Benchmarking: rnd_3sat_n300_27.cnf ---
+  [Baseline (MiniSat)] UNSAT in 53.2423s (7621309 confl)
+  [RL_Full_Context] TIMEOUT
+  [RL_No_Glue] UNSAT in 36.1625s (5306960 confl)
+  [RL_No_LBD] TIMEOUT
+  [RL_Context_Blind] UNSAT in 41.7718s (6046877 confl)
+
+--- Benchmarking: rnd_3sat_n300_28.cnf ---
+  [Baseline (MiniSat)] UNSAT in 23.3166s (3546940 confl)
+  [RL_Full_Context] UNSAT in 28.5826s (4085031 confl)
+  [RL_No_Glue] UNSAT in 24.0659s (3547892 confl)
+  [RL_No_LBD] UNSAT in 34.0484s (4846710 confl)
+  [RL_Context_Blind] UNSAT in 23.7878s (3567693 confl)
+
+--- Benchmarking: rnd_3sat_n300_29.cnf ---
+  [Baseline (MiniSat)] SAT in 0.7129s (132214 confl)
+  [RL_Full_Context] SAT in 6.0698s (975393 confl)
+  [RL_No_Glue] SAT in 8.7330s (1407190 confl)
+  [RL_No_LBD] SAT in 3.9629s (648631 confl)
+  [RL_Context_Blind] SAT in 0.2164s (41602 confl)
+
+--- Benchmarking: rnd_3sat_n300_3.cnf ---
+  [Baseline (MiniSat)] SAT in 6.4667s (1062559 confl)
+  [RL_Full_Context] SAT in 9.9702s (1566662 confl)
+  [RL_No_Glue] SAT in 1.1281s (203375 confl)
+  [RL_No_LBD] SAT in 1.1845s (214837 confl)
+  [RL_Context_Blind] SAT in 0.0869s (17418 confl)
+
+--- Benchmarking: rnd_3sat_n300_4.cnf ---
+  [Baseline (MiniSat)] UNSAT in 32.4825s (4773743 confl)
+  [RL_Full_Context] UNSAT in 36.7109s (5220505 confl)
+  [RL_No_Glue] UNSAT in 33.3293s (4907166 confl)
+  [RL_No_LBD] UNSAT in 37.5075s (5265460 confl)
+  [RL_Context_Blind] UNSAT in 36.6783s (5335728 confl)
+
+--- Benchmarking: rnd_3sat_n300_5.cnf ---
+  [Baseline (MiniSat)] SAT in 6.5244s (1106806 confl)
+  [RL_Full_Context] SAT in 1.7610s (310570 confl)
+  [RL_No_Glue] SAT in 2.4995s (444563 confl)
+  [RL_No_LBD] SAT in 2.1269s (373942 confl)
+  [RL_Context_Blind] SAT in 0.0718s (14999 confl)
+
+--- Benchmarking: rnd_3sat_n300_6.cnf ---
+  [Baseline (MiniSat)] UNSAT in 18.3367s (2854281 confl)
+  [RL_Full_Context] UNSAT in 33.0379s (4798750 confl)
+  [RL_No_Glue] UNSAT in 27.6527s (4219541 confl)
+  [RL_No_LBD] UNSAT in 35.3855s (5182777 confl)
+  [RL_Context_Blind] UNSAT in 20.0042s (3089200 confl)
+
+--- Benchmarking: rnd_3sat_n300_7.cnf ---
+  [Baseline (MiniSat)] SAT in 4.4909s (769910 confl)
+  [RL_Full_Context] SAT in 13.9652s (2129454 confl)
+  [RL_No_Glue] SAT in 2.5691s (440653 confl)
+  [RL_No_LBD] SAT in 17.4415s (2611651 confl)
+  [RL_Context_Blind] SAT in 9.3740s (1512895 confl)
+
+--- Benchmarking: rnd_3sat_n300_8.cnf ---
+  [Baseline (MiniSat)] UNSAT in 35.1434s (5233597 confl)
+  [RL_Full_Context] UNSAT in 34.0846s (4931652 confl)
+  [RL_No_Glue] UNSAT in 33.8720s (4880556 confl)
+  [RL_No_LBD] UNSAT in 34.4659s (4971189 confl)
+  [RL_Context_Blind] UNSAT in 53.5791s (7635949 confl)
+
+--- Benchmarking: rnd_3sat_n300_9.cnf ---
+  [Baseline (MiniSat)] SAT in 3.5053s (598218 confl)
+  [RL_Full_Context] SAT in 0.7227s (132596 confl)
+  [RL_No_Glue] SAT in 0.8013s (144594 confl)
+  [RL_No_LBD] SAT in 4.4373s (725149 confl)
+  [RL_Context_Blind] SAT in 1.5353s (267748 confl)
+
+
+=== ABLATION RESULTS SUMMARY ===
+Configuration             | Solved   | Avg Time   | Avg Confl 
+-----------------------------------------------------------------
+Baseline (MiniSat)        | 30       | 19.2347    | 2436343.0 
+RL_Full_Context           | 27       | 18.1855    | 2305589.1 
+RL_No_Glue                | 29       | 18.5391    | 2308159.6 
+RL_No_LBD                 | 27       | 17.6864    | 2231772.5 
+RL_Context_Blind          | 29       | 20.1430    | 2544571.2 
+
+Full results saved to ablation_results.json

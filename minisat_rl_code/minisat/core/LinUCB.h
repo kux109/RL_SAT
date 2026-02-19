@@ -110,11 +110,19 @@ public:
 
       double ucb = mean + alpha * sqrt(var);
 
-      if (ucb > max_ucb) {
+      if (ucb > max_ucb + 1e-6) {
         max_ucb = ucb;
         best_arm = a;
+      } else if (std::abs(ucb - max_ucb) <= 1e-6) {
+        if (rand() % 2 == 0) {
+          max_ucb = ucb;
+          best_arm = a;
+        }
       }
     }
+    // Fallback if still -1 (shouldn't happen)
+    if (best_arm == -1)
+      best_arm = rand() % n_arms;
     return best_arm;
   }
 

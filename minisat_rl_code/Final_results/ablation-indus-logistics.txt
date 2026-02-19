@@ -1,0 +1,42 @@
+=== RL-SAT Ablation Study Log ===
+
+
+--- Benchmarking: logistics.a.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0028s (145 confl)
+  [RL_Full_Context] SAT in 0.0027s (145 confl)
+  [RL_No_Glue] SAT in 0.0028s (145 confl)
+  [RL_No_LBD] SAT in 0.0027s (145 confl)
+  [RL_Context_Blind] SAT in 0.0029s (145 confl)
+
+--- Benchmarking: logistics.b.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0029s (129 confl)
+  [RL_Full_Context] SAT in 0.0028s (129 confl)
+  [RL_No_Glue] SAT in 0.0029s (129 confl)
+  [RL_No_LBD] SAT in 0.0028s (129 confl)
+  [RL_Context_Blind] SAT in 0.0028s (129 confl)
+
+--- Benchmarking: logistics.c.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0047s (342 confl)
+  [RL_Full_Context] SAT in 0.0046s (342 confl)
+  [RL_No_Glue] SAT in 0.0046s (342 confl)
+  [RL_No_LBD] SAT in 0.0046s (342 confl)
+  [RL_Context_Blind] SAT in 0.0046s (342 confl)
+
+--- Benchmarking: logistics.d.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0043s (37 confl)
+  [RL_Full_Context] SAT in 0.0042s (37 confl)
+  [RL_No_Glue] SAT in 0.0042s (37 confl)
+  [RL_No_LBD] SAT in 0.0041s (37 confl)
+  [RL_Context_Blind] SAT in 0.0043s (37 confl)
+
+
+=== ABLATION RESULTS SUMMARY ===
+Configuration             | Solved   | Avg Time   | Avg Confl 
+-----------------------------------------------------------------
+Baseline (MiniSat)        | 4        | 0.0037     | 163.2     
+RL_Full_Context           | 4        | 0.0036     | 163.2     
+RL_No_Glue                | 4        | 0.0036     | 163.2     
+RL_No_LBD                 | 4        | 0.0036     | 163.2     
+RL_Context_Blind          | 4        | 0.0036     | 163.2     
+
+Full results saved to ablation_results.json

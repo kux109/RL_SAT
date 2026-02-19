@@ -1,0 +1,714 @@
+=== RL-SAT Ablation Study Log ===
+
+
+--- Benchmarking: flat200-1.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0025s (104 confl)
+  [RL_Full_Context] SAT in 0.0024s (104 confl)
+  [RL_No_Glue] SAT in 0.0025s (104 confl)
+  [RL_No_LBD] SAT in 0.0026s (104 confl)
+  [RL_Context_Blind] SAT in 0.0025s (104 confl)
+
+--- Benchmarking: flat200-10.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0061s (480 confl)
+  [RL_Full_Context] SAT in 0.0063s (480 confl)
+  [RL_No_Glue] SAT in 0.0063s (480 confl)
+  [RL_No_LBD] SAT in 0.0062s (480 confl)
+  [RL_Context_Blind] SAT in 0.0063s (480 confl)
+
+--- Benchmarking: flat200-100.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0115s (882 confl)
+  [RL_Full_Context] SAT in 0.0113s (882 confl)
+  [RL_No_Glue] SAT in 0.0211s (1594 confl)
+  [RL_No_LBD] SAT in 0.0115s (882 confl)
+  [RL_Context_Blind] SAT in 0.0113s (882 confl)
+
+--- Benchmarking: flat200-11.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0064s (486 confl)
+  [RL_Full_Context] SAT in 0.0065s (486 confl)
+  [RL_No_Glue] SAT in 0.0065s (486 confl)
+  [RL_No_LBD] SAT in 0.0063s (486 confl)
+  [RL_Context_Blind] SAT in 0.0065s (486 confl)
+
+--- Benchmarking: flat200-12.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0094s (749 confl)
+  [RL_Full_Context] SAT in 0.0093s (749 confl)
+  [RL_No_Glue] SAT in 0.0096s (768 confl)
+  [RL_No_LBD] SAT in 0.0092s (749 confl)
+  [RL_Context_Blind] SAT in 0.0093s (749 confl)
+
+--- Benchmarking: flat200-13.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0099s (752 confl)
+  [RL_Full_Context] SAT in 0.0100s (752 confl)
+  [RL_No_Glue] SAT in 0.0088s (688 confl)
+  [RL_No_LBD] SAT in 0.0100s (752 confl)
+  [RL_Context_Blind] SAT in 0.0099s (752 confl)
+
+--- Benchmarking: flat200-14.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0063s (452 confl)
+  [RL_Full_Context] SAT in 0.0063s (452 confl)
+  [RL_No_Glue] SAT in 0.0063s (452 confl)
+  [RL_No_LBD] SAT in 0.0062s (452 confl)
+  [RL_Context_Blind] SAT in 0.0063s (452 confl)
+
+--- Benchmarking: flat200-15.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0043s (288 confl)
+  [RL_Full_Context] SAT in 0.0044s (288 confl)
+  [RL_No_Glue] SAT in 0.0043s (288 confl)
+  [RL_No_LBD] SAT in 0.0043s (288 confl)
+  [RL_Context_Blind] SAT in 0.0043s (288 confl)
+
+--- Benchmarking: flat200-16.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0060s (442 confl)
+  [RL_Full_Context] SAT in 0.0060s (442 confl)
+  [RL_No_Glue] SAT in 0.0059s (442 confl)
+  [RL_No_LBD] SAT in 0.0059s (442 confl)
+  [RL_Context_Blind] SAT in 0.0060s (442 confl)
+
+--- Benchmarking: flat200-17.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0713s (4950 confl)
+  [RL_Full_Context] SAT in 0.0718s (4950 confl)
+  [RL_No_Glue] SAT in 0.0198s (1443 confl)
+  [RL_No_LBD] SAT in 0.0724s (4950 confl)
+  [RL_Context_Blind] SAT in 0.0666s (4624 confl)
+
+--- Benchmarking: flat200-18.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0112s (922 confl)
+  [RL_Full_Context] SAT in 0.0112s (922 confl)
+  [RL_No_Glue] SAT in 0.0080s (682 confl)
+  [RL_No_LBD] SAT in 0.0113s (922 confl)
+  [RL_Context_Blind] SAT in 0.0113s (922 confl)
+
+--- Benchmarking: flat200-19.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0086s (713 confl)
+  [RL_Full_Context] SAT in 0.0088s (713 confl)
+  [RL_No_Glue] SAT in 0.0115s (902 confl)
+  [RL_No_LBD] SAT in 0.0088s (713 confl)
+  [RL_Context_Blind] SAT in 0.0087s (713 confl)
+
+--- Benchmarking: flat200-2.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0077s (606 confl)
+  [RL_Full_Context] SAT in 0.0076s (606 confl)
+  [RL_No_Glue] SAT in 0.0126s (983 confl)
+  [RL_No_LBD] SAT in 0.0076s (606 confl)
+  [RL_Context_Blind] SAT in 0.0077s (606 confl)
+
+--- Benchmarking: flat200-20.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0072s (564 confl)
+  [RL_Full_Context] SAT in 0.0071s (564 confl)
+  [RL_No_Glue] SAT in 0.0078s (622 confl)
+  [RL_No_LBD] SAT in 0.0069s (564 confl)
+  [RL_Context_Blind] SAT in 0.0071s (564 confl)
+
+--- Benchmarking: flat200-21.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0038s (252 confl)
+  [RL_Full_Context] SAT in 0.0038s (252 confl)
+  [RL_No_Glue] SAT in 0.0038s (252 confl)
+  [RL_No_LBD] SAT in 0.0036s (252 confl)
+  [RL_Context_Blind] SAT in 0.0038s (252 confl)
+
+--- Benchmarking: flat200-22.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0050s (392 confl)
+  [RL_Full_Context] SAT in 0.0052s (392 confl)
+  [RL_No_Glue] SAT in 0.0052s (392 confl)
+  [RL_No_LBD] SAT in 0.0051s (392 confl)
+  [RL_Context_Blind] SAT in 0.0051s (392 confl)
+
+--- Benchmarking: flat200-23.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0049s (373 confl)
+  [RL_Full_Context] SAT in 0.0049s (373 confl)
+  [RL_No_Glue] SAT in 0.0049s (373 confl)
+  [RL_No_LBD] SAT in 0.0049s (373 confl)
+  [RL_Context_Blind] SAT in 0.0050s (373 confl)
+
+--- Benchmarking: flat200-24.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0057s (446 confl)
+  [RL_Full_Context] SAT in 0.0058s (446 confl)
+  [RL_No_Glue] SAT in 0.0057s (446 confl)
+  [RL_No_LBD] SAT in 0.0057s (446 confl)
+  [RL_Context_Blind] SAT in 0.0057s (446 confl)
+
+--- Benchmarking: flat200-25.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0030s (171 confl)
+  [RL_Full_Context] SAT in 0.0031s (171 confl)
+  [RL_No_Glue] SAT in 0.0030s (171 confl)
+  [RL_No_LBD] SAT in 0.0030s (171 confl)
+  [RL_Context_Blind] SAT in 0.0029s (171 confl)
+
+--- Benchmarking: flat200-26.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0113s (855 confl)
+  [RL_Full_Context] SAT in 0.0115s (855 confl)
+  [RL_No_Glue] SAT in 0.0382s (2606 confl)
+  [RL_No_LBD] SAT in 0.0114s (855 confl)
+  [RL_Context_Blind] SAT in 0.0115s (855 confl)
+
+--- Benchmarking: flat200-27.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0202s (1515 confl)
+  [RL_Full_Context] SAT in 0.0201s (1515 confl)
+  [RL_No_Glue] SAT in 0.0091s (705 confl)
+  [RL_No_LBD] SAT in 0.0201s (1515 confl)
+  [RL_Context_Blind] SAT in 0.0199s (1515 confl)
+
+--- Benchmarking: flat200-28.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0040s (276 confl)
+  [RL_Full_Context] SAT in 0.0040s (276 confl)
+  [RL_No_Glue] SAT in 0.0040s (276 confl)
+  [RL_No_LBD] SAT in 0.0041s (276 confl)
+  [RL_Context_Blind] SAT in 0.0040s (276 confl)
+
+--- Benchmarking: flat200-29.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0070s (544 confl)
+  [RL_Full_Context] SAT in 0.0070s (544 confl)
+  [RL_No_Glue] SAT in 0.0093s (701 confl)
+  [RL_No_LBD] SAT in 0.0072s (544 confl)
+  [RL_Context_Blind] SAT in 0.0071s (544 confl)
+
+--- Benchmarking: flat200-3.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0143s (1072 confl)
+  [RL_Full_Context] SAT in 0.0143s (1072 confl)
+  [RL_No_Glue] SAT in 0.0104s (808 confl)
+  [RL_No_LBD] SAT in 0.0145s (1072 confl)
+  [RL_Context_Blind] SAT in 0.0143s (1072 confl)
+
+--- Benchmarking: flat200-30.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0128s (981 confl)
+  [RL_Full_Context] SAT in 0.0128s (981 confl)
+  [RL_No_Glue] SAT in 0.0086s (683 confl)
+  [RL_No_LBD] SAT in 0.0128s (981 confl)
+  [RL_Context_Blind] SAT in 0.0128s (981 confl)
+
+--- Benchmarking: flat200-31.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0121s (911 confl)
+  [RL_Full_Context] SAT in 0.0122s (911 confl)
+  [RL_No_Glue] SAT in 0.0155s (1148 confl)
+  [RL_No_LBD] SAT in 0.0121s (911 confl)
+  [RL_Context_Blind] SAT in 0.0119s (911 confl)
+
+--- Benchmarking: flat200-32.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0029s (151 confl)
+  [RL_Full_Context] SAT in 0.0027s (151 confl)
+  [RL_No_Glue] SAT in 0.0026s (151 confl)
+  [RL_No_LBD] SAT in 0.0028s (151 confl)
+  [RL_Context_Blind] SAT in 0.0028s (151 confl)
+
+--- Benchmarking: flat200-33.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0035s (208 confl)
+  [RL_Full_Context] SAT in 0.0034s (208 confl)
+  [RL_No_Glue] SAT in 0.0034s (208 confl)
+  [RL_No_LBD] SAT in 0.0035s (208 confl)
+  [RL_Context_Blind] SAT in 0.0033s (208 confl)
+
+--- Benchmarking: flat200-34.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0082s (628 confl)
+  [RL_Full_Context] SAT in 0.0084s (628 confl)
+  [RL_No_Glue] SAT in 0.0092s (705 confl)
+  [RL_No_LBD] SAT in 0.0081s (628 confl)
+  [RL_Context_Blind] SAT in 0.0083s (628 confl)
+
+--- Benchmarking: flat200-35.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0026s (145 confl)
+  [RL_Full_Context] SAT in 0.0026s (145 confl)
+  [RL_No_Glue] SAT in 0.0026s (145 confl)
+  [RL_No_LBD] SAT in 0.0027s (145 confl)
+  [RL_Context_Blind] SAT in 0.0025s (145 confl)
+
+--- Benchmarking: flat200-36.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0076s (602 confl)
+  [RL_Full_Context] SAT in 0.0077s (602 confl)
+  [RL_No_Glue] SAT in 0.0192s (1442 confl)
+  [RL_No_LBD] SAT in 0.0076s (602 confl)
+  [RL_Context_Blind] SAT in 0.0078s (602 confl)
+
+--- Benchmarking: flat200-37.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0053s (435 confl)
+  [RL_Full_Context] SAT in 0.0054s (435 confl)
+  [RL_No_Glue] SAT in 0.0053s (435 confl)
+  [RL_No_LBD] SAT in 0.0055s (435 confl)
+  [RL_Context_Blind] SAT in 0.0054s (435 confl)
+
+--- Benchmarking: flat200-38.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0039s (256 confl)
+  [RL_Full_Context] SAT in 0.0036s (256 confl)
+  [RL_No_Glue] SAT in 0.0037s (256 confl)
+  [RL_No_LBD] SAT in 0.0038s (256 confl)
+  [RL_Context_Blind] SAT in 0.0037s (256 confl)
+
+--- Benchmarking: flat200-39.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0658s (4640 confl)
+  [RL_Full_Context] SAT in 0.0658s (4640 confl)
+  [RL_No_Glue] SAT in 0.0181s (1371 confl)
+  [RL_No_LBD] SAT in 0.0665s (4640 confl)
+  [RL_Context_Blind] SAT in 0.0358s (2527 confl)
+
+--- Benchmarking: flat200-4.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0097s (754 confl)
+  [RL_Full_Context] SAT in 0.0096s (754 confl)
+  [RL_No_Glue] SAT in 0.0076s (593 confl)
+  [RL_No_LBD] SAT in 0.0096s (754 confl)
+  [RL_Context_Blind] SAT in 0.0095s (754 confl)
+
+--- Benchmarking: flat200-40.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0026s (108 confl)
+  [RL_Full_Context] SAT in 0.0024s (108 confl)
+  [RL_No_Glue] SAT in 0.0023s (108 confl)
+  [RL_No_LBD] SAT in 0.0022s (108 confl)
+  [RL_Context_Blind] SAT in 0.0024s (108 confl)
+
+--- Benchmarking: flat200-41.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0021s (98 confl)
+  [RL_Full_Context] SAT in 0.0022s (98 confl)
+  [RL_No_Glue] SAT in 0.0022s (98 confl)
+  [RL_No_LBD] SAT in 0.0021s (98 confl)
+  [RL_Context_Blind] SAT in 0.0021s (98 confl)
+
+--- Benchmarking: flat200-42.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0022s (92 confl)
+  [RL_Full_Context] SAT in 0.0022s (92 confl)
+  [RL_No_Glue] SAT in 0.0020s (92 confl)
+  [RL_No_LBD] SAT in 0.0021s (92 confl)
+  [RL_Context_Blind] SAT in 0.0020s (92 confl)
+
+--- Benchmarking: flat200-43.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0036s (215 confl)
+  [RL_Full_Context] SAT in 0.0034s (215 confl)
+  [RL_No_Glue] SAT in 0.0035s (215 confl)
+  [RL_No_LBD] SAT in 0.0034s (215 confl)
+  [RL_Context_Blind] SAT in 0.0034s (215 confl)
+
+--- Benchmarking: flat200-44.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0095s (781 confl)
+  [RL_Full_Context] SAT in 0.0095s (781 confl)
+  [RL_No_Glue] SAT in 0.0064s (519 confl)
+  [RL_No_LBD] SAT in 0.0094s (781 confl)
+  [RL_Context_Blind] SAT in 0.0093s (781 confl)
+
+--- Benchmarking: flat200-45.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0076s (578 confl)
+  [RL_Full_Context] SAT in 0.0076s (578 confl)
+  [RL_No_Glue] SAT in 0.0167s (1204 confl)
+  [RL_No_LBD] SAT in 0.0077s (578 confl)
+  [RL_Context_Blind] SAT in 0.0075s (578 confl)
+
+--- Benchmarking: flat200-46.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0111s (866 confl)
+  [RL_Full_Context] SAT in 0.0110s (866 confl)
+  [RL_No_Glue] SAT in 0.0103s (852 confl)
+  [RL_No_LBD] SAT in 0.0110s (866 confl)
+  [RL_Context_Blind] SAT in 0.0108s (866 confl)
+
+--- Benchmarking: flat200-47.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0202s (1571 confl)
+  [RL_Full_Context] SAT in 0.0203s (1571 confl)
+  [RL_No_Glue] SAT in 0.0158s (1160 confl)
+  [RL_No_LBD] SAT in 0.0203s (1571 confl)
+  [RL_Context_Blind] SAT in 0.0204s (1571 confl)
+
+--- Benchmarking: flat200-48.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0115s (887 confl)
+  [RL_Full_Context] SAT in 0.0118s (887 confl)
+  [RL_No_Glue] SAT in 0.0072s (567 confl)
+  [RL_No_LBD] SAT in 0.0115s (887 confl)
+  [RL_Context_Blind] SAT in 0.0116s (887 confl)
+
+--- Benchmarking: flat200-49.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0027s (157 confl)
+  [RL_Full_Context] SAT in 0.0026s (157 confl)
+  [RL_No_Glue] SAT in 0.0026s (157 confl)
+  [RL_No_LBD] SAT in 0.0028s (157 confl)
+  [RL_Context_Blind] SAT in 0.0026s (157 confl)
+
+--- Benchmarking: flat200-5.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0506s (3775 confl)
+  [RL_Full_Context] SAT in 0.0510s (3775 confl)
+  [RL_No_Glue] SAT in 0.0189s (1429 confl)
+  [RL_No_LBD] SAT in 0.0514s (3775 confl)
+  [RL_Context_Blind] SAT in 0.0392s (2848 confl)
+
+--- Benchmarking: flat200-50.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0085s (693 confl)
+  [RL_Full_Context] SAT in 0.0085s (693 confl)
+  [RL_No_Glue] SAT in 0.0065s (515 confl)
+  [RL_No_LBD] SAT in 0.0085s (693 confl)
+  [RL_Context_Blind] SAT in 0.0086s (693 confl)
+
+--- Benchmarking: flat200-51.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0032s (188 confl)
+  [RL_Full_Context] SAT in 0.0031s (188 confl)
+  [RL_No_Glue] SAT in 0.0032s (188 confl)
+  [RL_No_LBD] SAT in 0.0032s (188 confl)
+  [RL_Context_Blind] SAT in 0.0031s (188 confl)
+
+--- Benchmarking: flat200-52.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0168s (1245 confl)
+  [RL_Full_Context] SAT in 0.0169s (1245 confl)
+  [RL_No_Glue] SAT in 0.0120s (906 confl)
+  [RL_No_LBD] SAT in 0.0169s (1245 confl)
+  [RL_Context_Blind] SAT in 0.0169s (1245 confl)
+
+--- Benchmarking: flat200-53.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0024s (105 confl)
+  [RL_Full_Context] SAT in 0.0023s (105 confl)
+  [RL_No_Glue] SAT in 0.0023s (105 confl)
+  [RL_No_LBD] SAT in 0.0023s (105 confl)
+  [RL_Context_Blind] SAT in 0.0022s (105 confl)
+
+--- Benchmarking: flat200-54.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0200s (1621 confl)
+  [RL_Full_Context] SAT in 0.0204s (1621 confl)
+  [RL_No_Glue] SAT in 0.0185s (1419 confl)
+  [RL_No_LBD] SAT in 0.0204s (1621 confl)
+  [RL_Context_Blind] SAT in 0.0203s (1621 confl)
+
+--- Benchmarking: flat200-55.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0524s (3598 confl)
+  [RL_Full_Context] SAT in 0.0526s (3598 confl)
+  [RL_No_Glue] SAT in 0.0466s (3198 confl)
+  [RL_No_LBD] SAT in 0.0525s (3598 confl)
+  [RL_Context_Blind] SAT in 0.0294s (2055 confl)
+
+--- Benchmarking: flat200-56.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0084s (650 confl)
+  [RL_Full_Context] SAT in 0.0085s (650 confl)
+  [RL_No_Glue] SAT in 0.0132s (1023 confl)
+  [RL_No_LBD] SAT in 0.0084s (650 confl)
+  [RL_Context_Blind] SAT in 0.0084s (650 confl)
+
+--- Benchmarking: flat200-57.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0089s (702 confl)
+  [RL_Full_Context] SAT in 0.0087s (702 confl)
+  [RL_No_Glue] SAT in 0.0200s (1522 confl)
+  [RL_No_LBD] SAT in 0.0087s (702 confl)
+  [RL_Context_Blind] SAT in 0.0087s (702 confl)
+
+--- Benchmarking: flat200-58.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0017s (24 confl)
+  [RL_Full_Context] SAT in 0.0018s (24 confl)
+  [RL_No_Glue] SAT in 0.0015s (24 confl)
+  [RL_No_LBD] SAT in 0.0017s (24 confl)
+  [RL_Context_Blind] SAT in 0.0016s (24 confl)
+
+--- Benchmarking: flat200-59.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0067s (546 confl)
+  [RL_Full_Context] SAT in 0.0066s (546 confl)
+  [RL_No_Glue] SAT in 0.0159s (1193 confl)
+  [RL_No_LBD] SAT in 0.0067s (546 confl)
+  [RL_Context_Blind] SAT in 0.0067s (546 confl)
+
+--- Benchmarking: flat200-6.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0043s (297 confl)
+  [RL_Full_Context] SAT in 0.0042s (297 confl)
+  [RL_No_Glue] SAT in 0.0040s (297 confl)
+  [RL_No_LBD] SAT in 0.0041s (297 confl)
+  [RL_Context_Blind] SAT in 0.0043s (297 confl)
+
+--- Benchmarking: flat200-60.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0028s (160 confl)
+  [RL_Full_Context] SAT in 0.0026s (160 confl)
+  [RL_No_Glue] SAT in 0.0028s (160 confl)
+  [RL_No_LBD] SAT in 0.0027s (160 confl)
+  [RL_Context_Blind] SAT in 0.0027s (160 confl)
+
+--- Benchmarking: flat200-61.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0017s (26 confl)
+  [RL_Full_Context] SAT in 0.0016s (26 confl)
+  [RL_No_Glue] SAT in 0.0015s (26 confl)
+  [RL_No_LBD] SAT in 0.0015s (26 confl)
+  [RL_Context_Blind] SAT in 0.0017s (26 confl)
+
+--- Benchmarking: flat200-62.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0137s (1083 confl)
+  [RL_Full_Context] SAT in 0.0139s (1083 confl)
+  [RL_No_Glue] SAT in 0.0242s (1836 confl)
+  [RL_No_LBD] SAT in 0.0138s (1083 confl)
+  [RL_Context_Blind] SAT in 0.0140s (1083 confl)
+
+--- Benchmarking: flat200-63.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0137s (1031 confl)
+  [RL_Full_Context] SAT in 0.0138s (1031 confl)
+  [RL_No_Glue] SAT in 0.0093s (702 confl)
+  [RL_No_LBD] SAT in 0.0135s (1031 confl)
+  [RL_Context_Blind] SAT in 0.0136s (1031 confl)
+
+--- Benchmarking: flat200-64.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0036s (246 confl)
+  [RL_Full_Context] SAT in 0.0037s (246 confl)
+  [RL_No_Glue] SAT in 0.0035s (246 confl)
+  [RL_No_LBD] SAT in 0.0036s (246 confl)
+  [RL_Context_Blind] SAT in 0.0036s (246 confl)
+
+--- Benchmarking: flat200-65.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0286s (2048 confl)
+  [RL_Full_Context] SAT in 0.0286s (2048 confl)
+  [RL_No_Glue] SAT in 0.0142s (1002 confl)
+  [RL_No_LBD] SAT in 0.0288s (2048 confl)
+  [RL_Context_Blind] SAT in 0.0418s (2914 confl)
+
+--- Benchmarking: flat200-66.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0293s (2189 confl)
+  [RL_Full_Context] SAT in 0.0291s (2189 confl)
+  [RL_No_Glue] SAT in 0.0121s (933 confl)
+  [RL_No_LBD] SAT in 0.0292s (2189 confl)
+  [RL_Context_Blind] SAT in 0.0382s (2792 confl)
+
+--- Benchmarking: flat200-67.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0027s (138 confl)
+  [RL_Full_Context] SAT in 0.0027s (138 confl)
+  [RL_No_Glue] SAT in 0.0026s (138 confl)
+  [RL_No_LBD] SAT in 0.0026s (138 confl)
+  [RL_Context_Blind] SAT in 0.0025s (138 confl)
+
+--- Benchmarking: flat200-68.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0024s (133 confl)
+  [RL_Full_Context] SAT in 0.0026s (133 confl)
+  [RL_No_Glue] SAT in 0.0025s (133 confl)
+  [RL_No_LBD] SAT in 0.0026s (133 confl)
+  [RL_Context_Blind] SAT in 0.0026s (133 confl)
+
+--- Benchmarking: flat200-69.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0030s (172 confl)
+  [RL_Full_Context] SAT in 0.0030s (172 confl)
+  [RL_No_Glue] SAT in 0.0031s (172 confl)
+  [RL_No_LBD] SAT in 0.0030s (172 confl)
+  [RL_Context_Blind] SAT in 0.0030s (172 confl)
+
+--- Benchmarking: flat200-7.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0157s (1145 confl)
+  [RL_Full_Context] SAT in 0.0158s (1145 confl)
+  [RL_No_Glue] SAT in 0.0137s (1014 confl)
+  [RL_No_LBD] SAT in 0.0157s (1145 confl)
+  [RL_Context_Blind] SAT in 0.0156s (1145 confl)
+
+--- Benchmarking: flat200-70.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0091s (729 confl)
+  [RL_Full_Context] SAT in 0.0091s (729 confl)
+  [RL_No_Glue] SAT in 0.0090s (704 confl)
+  [RL_No_LBD] SAT in 0.0092s (729 confl)
+  [RL_Context_Blind] SAT in 0.0092s (729 confl)
+
+--- Benchmarking: flat200-71.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0081s (599 confl)
+  [RL_Full_Context] SAT in 0.0081s (599 confl)
+  [RL_No_Glue] SAT in 0.0197s (1447 confl)
+  [RL_No_LBD] SAT in 0.0081s (599 confl)
+  [RL_Context_Blind] SAT in 0.0081s (599 confl)
+
+--- Benchmarking: flat200-72.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0072s (552 confl)
+  [RL_Full_Context] SAT in 0.0073s (552 confl)
+  [RL_No_Glue] SAT in 0.0120s (915 confl)
+  [RL_No_LBD] SAT in 0.0073s (552 confl)
+  [RL_Context_Blind] SAT in 0.0072s (552 confl)
+
+--- Benchmarking: flat200-73.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0103s (816 confl)
+  [RL_Full_Context] SAT in 0.0104s (816 confl)
+  [RL_No_Glue] SAT in 0.0088s (692 confl)
+  [RL_No_LBD] SAT in 0.0106s (816 confl)
+  [RL_Context_Blind] SAT in 0.0104s (816 confl)
+
+--- Benchmarking: flat200-74.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0106s (808 confl)
+  [RL_Full_Context] SAT in 0.0105s (808 confl)
+  [RL_No_Glue] SAT in 0.0084s (661 confl)
+  [RL_No_LBD] SAT in 0.0107s (808 confl)
+  [RL_Context_Blind] SAT in 0.0107s (808 confl)
+
+--- Benchmarking: flat200-75.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0048s (334 confl)
+  [RL_Full_Context] SAT in 0.0047s (334 confl)
+  [RL_No_Glue] SAT in 0.0045s (334 confl)
+  [RL_No_LBD] SAT in 0.0046s (334 confl)
+  [RL_Context_Blind] SAT in 0.0047s (334 confl)
+
+--- Benchmarking: flat200-76.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0082s (644 confl)
+  [RL_Full_Context] SAT in 0.0083s (644 confl)
+  [RL_No_Glue] SAT in 0.0071s (569 confl)
+  [RL_No_LBD] SAT in 0.0082s (644 confl)
+  [RL_Context_Blind] SAT in 0.0083s (644 confl)
+
+--- Benchmarking: flat200-77.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0149s (1112 confl)
+  [RL_Full_Context] SAT in 0.0149s (1112 confl)
+  [RL_No_Glue] SAT in 0.0102s (787 confl)
+  [RL_No_LBD] SAT in 0.0149s (1112 confl)
+  [RL_Context_Blind] SAT in 0.0150s (1112 confl)
+
+--- Benchmarking: flat200-78.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0073s (547 confl)
+  [RL_Full_Context] SAT in 0.0072s (547 confl)
+  [RL_No_Glue] SAT in 0.0096s (724 confl)
+  [RL_No_LBD] SAT in 0.0073s (547 confl)
+  [RL_Context_Blind] SAT in 0.0072s (547 confl)
+
+--- Benchmarking: flat200-79.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0275s (1924 confl)
+  [RL_Full_Context] SAT in 0.0274s (1924 confl)
+  [RL_No_Glue] SAT in 0.0131s (980 confl)
+  [RL_No_LBD] SAT in 0.0275s (1924 confl)
+  [RL_Context_Blind] SAT in 0.0274s (1924 confl)
+
+--- Benchmarking: flat200-8.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0024s (101 confl)
+  [RL_Full_Context] SAT in 0.0023s (101 confl)
+  [RL_No_Glue] SAT in 0.0022s (101 confl)
+  [RL_No_LBD] SAT in 0.0022s (101 confl)
+  [RL_Context_Blind] SAT in 0.0022s (101 confl)
+
+--- Benchmarking: flat200-80.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0049s (363 confl)
+  [RL_Full_Context] SAT in 0.0049s (363 confl)
+  [RL_No_Glue] SAT in 0.0049s (363 confl)
+  [RL_No_LBD] SAT in 0.0049s (363 confl)
+  [RL_Context_Blind] SAT in 0.0050s (363 confl)
+
+--- Benchmarking: flat200-81.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0195s (1430 confl)
+  [RL_Full_Context] SAT in 0.0193s (1430 confl)
+  [RL_No_Glue] SAT in 0.0191s (1365 confl)
+  [RL_No_LBD] SAT in 0.0193s (1430 confl)
+  [RL_Context_Blind] SAT in 0.0194s (1430 confl)
+
+--- Benchmarking: flat200-82.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0085s (648 confl)
+  [RL_Full_Context] SAT in 0.0085s (648 confl)
+  [RL_No_Glue] SAT in 0.0092s (696 confl)
+  [RL_No_LBD] SAT in 0.0084s (648 confl)
+  [RL_Context_Blind] SAT in 0.0084s (648 confl)
+
+--- Benchmarking: flat200-83.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0171s (1332 confl)
+  [RL_Full_Context] SAT in 0.0170s (1332 confl)
+  [RL_No_Glue] SAT in 0.0104s (824 confl)
+  [RL_No_LBD] SAT in 0.0170s (1332 confl)
+  [RL_Context_Blind] SAT in 0.0171s (1332 confl)
+
+--- Benchmarking: flat200-84.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0076s (573 confl)
+  [RL_Full_Context] SAT in 0.0074s (573 confl)
+  [RL_No_Glue] SAT in 0.0084s (653 confl)
+  [RL_No_LBD] SAT in 0.0075s (573 confl)
+  [RL_Context_Blind] SAT in 0.0075s (573 confl)
+
+--- Benchmarking: flat200-85.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0096s (766 confl)
+  [RL_Full_Context] SAT in 0.0096s (766 confl)
+  [RL_No_Glue] SAT in 0.0111s (832 confl)
+  [RL_No_LBD] SAT in 0.0097s (766 confl)
+  [RL_Context_Blind] SAT in 0.0098s (766 confl)
+
+--- Benchmarking: flat200-86.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0039s (257 confl)
+  [RL_Full_Context] SAT in 0.0038s (257 confl)
+  [RL_No_Glue] SAT in 0.0038s (257 confl)
+  [RL_No_LBD] SAT in 0.0039s (257 confl)
+  [RL_Context_Blind] SAT in 0.0038s (257 confl)
+
+--- Benchmarking: flat200-87.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0153s (1113 confl)
+  [RL_Full_Context] SAT in 0.0153s (1113 confl)
+  [RL_No_Glue] SAT in 0.0215s (1597 confl)
+  [RL_No_LBD] SAT in 0.0152s (1113 confl)
+  [RL_Context_Blind] SAT in 0.0153s (1113 confl)
+
+--- Benchmarking: flat200-88.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0114s (865 confl)
+  [RL_Full_Context] SAT in 0.0114s (865 confl)
+  [RL_No_Glue] SAT in 0.0189s (1343 confl)
+  [RL_No_LBD] SAT in 0.0116s (865 confl)
+  [RL_Context_Blind] SAT in 0.0114s (865 confl)
+
+--- Benchmarking: flat200-89.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0028s (161 confl)
+  [RL_Full_Context] SAT in 0.0027s (161 confl)
+  [RL_No_Glue] SAT in 0.0028s (161 confl)
+  [RL_No_LBD] SAT in 0.0027s (161 confl)
+  [RL_Context_Blind] SAT in 0.0027s (161 confl)
+
+--- Benchmarking: flat200-9.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0172s (1298 confl)
+  [RL_Full_Context] SAT in 0.0171s (1298 confl)
+  [RL_No_Glue] SAT in 0.0078s (594 confl)
+  [RL_No_LBD] SAT in 0.0173s (1298 confl)
+  [RL_Context_Blind] SAT in 0.0169s (1298 confl)
+
+--- Benchmarking: flat200-90.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0061s (488 confl)
+  [RL_Full_Context] SAT in 0.0062s (488 confl)
+  [RL_No_Glue] SAT in 0.0063s (488 confl)
+  [RL_No_LBD] SAT in 0.0061s (488 confl)
+  [RL_Context_Blind] SAT in 0.0063s (488 confl)
+
+--- Benchmarking: flat200-91.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0032s (179 confl)
+  [RL_Full_Context] SAT in 0.0029s (179 confl)
+  [RL_No_Glue] SAT in 0.0029s (179 confl)
+  [RL_No_LBD] SAT in 0.0029s (179 confl)
+  [RL_Context_Blind] SAT in 0.0029s (179 confl)
+
+--- Benchmarking: flat200-92.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0044s (318 confl)
+  [RL_Full_Context] SAT in 0.0043s (318 confl)
+  [RL_No_Glue] SAT in 0.0043s (318 confl)
+  [RL_No_LBD] SAT in 0.0042s (318 confl)
+  [RL_Context_Blind] SAT in 0.0044s (318 confl)
+
+--- Benchmarking: flat200-93.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0065s (503 confl)
+  [RL_Full_Context] SAT in 0.0065s (503 confl)
+  [RL_No_Glue] SAT in 0.0125s (960 confl)
+  [RL_No_LBD] SAT in 0.0067s (503 confl)
+  [RL_Context_Blind] SAT in 0.0065s (503 confl)
+
+--- Benchmarking: flat200-94.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0041s (284 confl)
+  [RL_Full_Context] SAT in 0.0040s (284 confl)
+  [RL_No_Glue] SAT in 0.0040s (284 confl)
+  [RL_No_LBD] SAT in 0.0041s (284 confl)
+  [RL_Context_Blind] SAT in 0.0042s (284 confl)
+
+--- Benchmarking: flat200-95.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0139s (1071 confl)
+  [RL_Full_Context] SAT in 0.0140s (1071 confl)
+  [RL_No_Glue] SAT in 0.0152s (1143 confl)
+  [RL_No_LBD] SAT in 0.0139s (1071 confl)
+  [RL_Context_Blind] SAT in 0.0152s (1071 confl)
+
+--- Benchmarking: flat200-96.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0052s (364 confl)
+  [RL_Full_Context] SAT in 0.0050s (364 confl)
+  [RL_No_Glue] SAT in 0.0050s (364 confl)
+  [RL_No_LBD] SAT in 0.0049s (364 confl)
+  [RL_Context_Blind] SAT in 0.0050s (364 confl)
+
+--- Benchmarking: flat200-97.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0019s (55 confl)
+  [RL_Full_Context] SAT in 0.0018s (55 confl)
+  [RL_No_Glue] SAT in 0.0018s (55 confl)
+  [RL_No_LBD] SAT in 0.0018s (55 confl)
+  [RL_Context_Blind] SAT in 0.0018s (55 confl)
+
+--- Benchmarking: flat200-98.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0065s (506 confl)
+  [RL_Full_Context] SAT in 0.0066s (506 confl)
+  [RL_No_Glue] SAT in 0.0106s (834 confl)
+  [RL_No_LBD] SAT in 0.0066s (506 confl)
+  [RL_Context_Blind] SAT in 0.0066s (506 confl)
+
+--- Benchmarking: flat200-99.cnf ---
+  [Baseline (MiniSat)] SAT in 0.0104s (814 confl)
+  [RL_Full_Context] SAT in 0.0106s (814 confl)
+  [RL_No_Glue] SAT in 0.0353s (2526 confl)
+  [RL_No_LBD] SAT in 0.0106s (814 confl)
+  [RL_Context_Blind] SAT in 0.0105s (814 confl)
+
+
+=== ABLATION RESULTS SUMMARY ===
+Configuration             | Solved   | Avg Time   | Avg Confl 
+-----------------------------------------------------------------
+Baseline (MiniSat)        | 100      | 0.0105     | 767.2     
+RL_Full_Context           | 100      | 0.0105     | 767.2     
+RL_No_Glue                | 100      | 0.0096     | 707.0     
+RL_No_LBD                 | 100      | 0.0105     | 767.2     
+RL_Context_Blind          | 100      | 0.0100     | 732.8     
+
+Full results saved to ablation_results.json

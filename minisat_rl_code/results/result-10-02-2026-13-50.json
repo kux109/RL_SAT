@@ -1,0 +1,36 @@
+{
+    "meta": {
+        "input_directory": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/very_hard_instance",
+        "date": "2026-02-10",
+        "time": "10-02-2026-13-50"
+    },
+    "summary": {
+        "total": 1,
+        "baseline_wins": 0,
+        "rl_wins": 0,
+        "ties": 1
+    },
+    "results": [
+        {
+            "instance": "one_problem_of_SAT_2025.cnf",
+            "path": "/Users/kushagrasrivastva/Desktop/Thesis/latest_code_RL_SAT/minisat_rl_code/datasets/very_hard_instance/one_problem_of_SAT_2025.cnf",
+            "baseline": {
+                "status": "INDET",
+                "time": 29.8935,
+                "conflicts": 211632,
+                "restarts": 511,
+                "avg_lbd": 144.67,
+                "glue_ratio": 0.23
+            },
+            "rl": {
+                "status": "INDET",
+                "time": 29.9227,
+                "conflicts": 220104,
+                "restarts": 511,
+                "avg_lbd": 137.36,
+                "glue_ratio": 0.23
+            },
+            "winner": "TIE"
+        }
+    ]
+}
